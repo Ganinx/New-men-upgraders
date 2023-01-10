@@ -1,0 +1,38 @@
+
+.container1{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    color: white;
+    font-family: "poppins";
+    align-items: center;
+    margin: 0;
+    width: 1512px;
+}
+nav{
+    background: linear-gradient(to right, #000 0%, #707070 100%);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    
+
+}
+.btn{
+    text-decoration: none;
+    border: solid #f8c500;
+    color: white;
+    padding: 6px 12px;
+    margin-right: 20px;
+}
+.icone{
+    width: 5%;
+}
+.container{
+    
+}
