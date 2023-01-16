@@ -1,5 +1,7 @@
-
-.container1{
+ body{
+    margin-top: 80px;
+ }
+.container{
     display: flex;
     list-style: none;
     justify-content: space-between;
@@ -7,7 +9,7 @@
     font-family: "poppins";
     align-items: center;
     margin: 0;
-    width: 1512px;
+    width: 1110px;
 }
 nav{
     background: linear-gradient(to right, #000 0%, #707070 100%);
@@ -18,9 +20,13 @@ nav{
     display: flex;
     justify-content: center;
 }
-
+.menu {
+    display: flex;
+    align-items: center;
+}
 .button{
-    
+    margin-left: 200px;
+    white-space: nowrap;
 
 }
 .btn{
@@ -29,10 +35,100 @@ nav{
     color: white;
     padding: 6px 12px;
     margin-right: 20px;
+    position: relative;
+}
+.btn::after {
+    content: "";
+    -webkit-transition: right .3s ease-in-out;
+    -o-transition: right .3s ease-in-out;
+    transition: right .3s ease-in-out;
+    content: '';
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    top: 0;
+    position: absolute;
+    z-index: -1;
+    background-color: #f8c500;
+}
+.btn:hover::after {
+right: 0%;
 }
 .icone{
     width: 5%;
 }
 .container{
-    
+    justify-content: center;
+}
+p {
+  background-color: #707070;
+}
+
+.accueil,
+.cv
+ {
+    border-right:solid #f8c500 1px;
+    padding: 0 30px;
+    line-height: 15px;
+    position: relative;
+}
+.accueil::before,
+.cv::before,
+.portef::before {
+    transition: opacity .6s ease-in-out,visibility .6s ease-in-out,right .6s ease-in-out;
+    content: '';
+    left: 28px;
+    right: calc(100% + 6px);
+    bottom: -0.1875rem;
+    position: absolute;
+    background-color: #f8c500;
+    height: 0.125rem;
+    opacity: 0;
+    visibility: hidden;
+}
+.accueil:hover::before,
+.cv:hover::before,
+.portef:hover::before {
+    right: 29px;
+    opacity: 1;
+    visibility: visible; }
+
+.cv {
+    border-right:solid #f8c500 1px;
+    padding-right: 30px;
+    line-height: 15px;
+    white-space: nowrap;
+}
+.portef {
+    padding: 0 30px;
+    line-height: 15px;
+    position: relative;
+}
+.t {
+    font-weight: 100
+}
+.accueil {
+    margin-left: 200px;
+}
+.c {
+    display: flex;
+    margin: auto;
+    max-width: 1512px;
+    justify-content:center ;
+}
+a {
+    color: white;
+    text-decoration: none
+}
+.Pied {
+    background: linear-gradient(to right, #000 0%, #707070 100%);
+    height: 426px;
+    margin-top: 100px;
+}
+.mention {
+    background-color: #D9D9D9;
+    height: 76px;
+}
+.linkd {
+    margin-top: 25px;
 }
