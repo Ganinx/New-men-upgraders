@@ -121,7 +121,7 @@ a {
     text-decoration: none
 }
 .Pied {
-    background-color: #545454;
+    background: linear-gradient(to right, #000 0%, #707070 100%);
     height: 426px;
     margin-top: 100px;
 }
@@ -129,38 +129,6 @@ a {
     background-color: #D9D9D9;
     height: 76px;
 }
-
-.gauche {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-}
-.droite {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-}
 .linkd {
     margin-top: 25px;
-}
-.mail {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 125px;
-    margin-top: 25px;
-    color:#545454;
-    border-radius: 23px;
-    background: #adadad;
-    box-shadow:  -34px -34px 100px #8c8c8c,
-             34px 34px 100px #cecece;
-}
-.fleche {
-    position: fixed;
-    left: 1623px;
-    top: 390px;
 }
