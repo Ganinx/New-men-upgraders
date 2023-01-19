@@ -123,11 +123,7 @@ a {
 .Pied {
     background: linear-gradient(to right, #000 0%, #707070 100%);
     height: 426px;
-    margin-top: 100px;
     width: 100%;
-    display: flex;
-    margin: auto;
-    justify-content: center;
     margin-top: 200px;
 }
 .mention {
@@ -190,17 +186,20 @@ a {
   .class1 {
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-top: 30px;
+    width: 33%;
   }
   .class2 {
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-top: 30px;
+    width: 33%;
   }
   .class3 {
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-top: 30px;
+    width: 33%;
   }
   .flechejaune {
     position: fixed;
@@ -210,4 +209,10 @@ a {
 .flechejaune:hover {
     transform: scale(1.2);
     transition: 0.5s all;
+}
+.test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
