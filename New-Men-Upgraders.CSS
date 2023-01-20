@@ -4,7 +4,7 @@
 .container{
     display: flex;
     list-style: none;
-    justify-content: space-between;
+    justify-content: center;
     color: white;
     font-family: "poppins";
     align-items: center;
@@ -19,6 +19,7 @@ nav{
     left: 0;
     display: flex;
     justify-content: center;
+    z-index: 999;
 }
 .menu {
     display: flex;
@@ -56,9 +57,6 @@ right: 0%;
 }
 .icone{
     width: 5%;
-}
-.container{
-    justify-content: center;
 }
 p {
  color: #D9D9D9;
@@ -115,8 +113,9 @@ p {
 .c {
     display: flex;
     margin: auto;
-    max-width: 1512px;
-    justify-content:center ;
+    max-width: 1110px;
+    justify-content:center;
+
 }
 a {
     color: white;
@@ -162,6 +161,7 @@ a {
     letter-spacing: 2px;
     transition: all 0.5s;
     border:solid 3px #F8C500;
+    transition: all .4;
   }
   
   .button1 .container {
@@ -241,4 +241,77 @@ a {
     color: black;
     font-family: "poppins";
     font-size: 16px;
+}
+.image1 {
+    width:486px ;
+    height:552px;
+}
+.image2 {
+    width:486px ;
+    height:552px ;
+}
+#text1 {
+    margin-bottom: 150px;
+}
+.text2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    text-align: justify;
+}
+.bloctext {
+    margin-left: 50px;
+    color: #000000;
+    font-family: "poppins";
+    font-size: 20px;
+}
+.text3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    text-align: justify;
+}
+.bloctext1 {
+    margin-right: 50px;
+    color: #000000;
+    font-family: "poppins";
+    font-size: 20px;
+}
+.s3 {
+    margin-top: 50px;
+}
+.carre1 {
+    width: 386px;
+    height: 452px;
+    background-color: #f8c500;
+    position: absolute;
+    z-index: -2;
+    top: -23px;
+    left: -23px;
+}
+.c-i {
+position: relative;
+}
+.carre2 {
+    width: 200px;
+    height: 200px;
+    background-color: #f8c500;
+    position: absolute;
+    z-index: -2;
+    top: -23px;
+    right: -23px;
+}
+.carre3 {
+    width: 100px;
+    height: 100px;
+    background-color: #f8c500;
+    position: absolute;
+    z-index: -2;
+    bottom: -12px;
+    left: -14px;
+}
+.c-i2 {
+position: relative;
 }
