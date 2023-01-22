@@ -1,13 +1,15 @@
- body{
-    margin-top: 71px;
-    margin-left: 0;
+html {
+    font-family: "poppins";
+}
+
+body{
+    margin: 70px 0px 0px 0px;
  }
 .container{
     display: flex;
     list-style: none;
     justify-content: center;
     color: white;
-    font-family: "poppins";
     align-items: center;
     margin: 0;
     width: 1110px;
@@ -21,6 +23,7 @@ nav{
     display: flex;
     justify-content: center;
     z-index: 999;
+    height: 75px;
 }
 .menu {
     display: flex;
@@ -29,6 +32,7 @@ nav{
 .button{
     margin-left: 200px;
     white-space: nowrap;
+    transition: all .5s ease-out;
 
 }
 .btn{
@@ -60,8 +64,7 @@ right: 0%;
     width: 5%;
 }
 p {
- color: #D9D9D9;
- font-family: "poppins";
+ color: #D9D9D9;   
  font-size: 20px;
 }
 
@@ -92,8 +95,8 @@ p {
 .portef:hover::before {
     right: 29px;
     opacity: 1;
-    visibility: visible; }
-
+    visibility: visible; 
+}
 .cv {
     border-right:solid #f8c500 1px;
     padding-right: 30px;
@@ -110,6 +113,7 @@ p {
 }
 .accueil {
     margin-left: 200px;
+    transition: all .5s ease-out;
 }
 .c {
     display: flex;
@@ -158,7 +162,6 @@ a {
     color: #fff;
     line-height: 50px;
     font-size: 18px;
-    font-family: "poppins";
     letter-spacing: 2px;
     transition: all 0.5s;
     border:solid 3px #F8C500;
@@ -175,17 +178,14 @@ a {
     transform: translateY(-50px);
     transition: right .3s ease-in-out;
   }
-  
   .button1 .container svg {
     padding: 4px;
   }
-  
   .button1:hover span {
     transition:all 0.5s;
     width: 0%;
     opacity: 0%;
   }
-  
   .button1:hover .container {
     z-index: 2;
     width: 100%;
@@ -240,7 +240,6 @@ a {
     display: flex;
     align-items: center;
     color: black;
-    font-family: "poppins";
     font-size: 16px;
 }
 .image1 {
@@ -260,11 +259,12 @@ a {
     justify-content: center;
     margin-top: 0px;
     text-align: justify;
+    font-size: 16px;
+    line-height: 40px;
 }
 .bloctext {
     margin-left: 50px;
     color: #000000;
-    font-family: "poppins";
     font-size: 20px;
 }
 .text3 {
@@ -273,11 +273,12 @@ a {
     justify-content: center;
     margin-top: 0px;
     text-align: justify;
+    font-size: 16px;
+    line-height: 37px;
 }
 .bloctext1 {
     margin-right: 50px;
     color: #000000;
-    font-family: "poppins";
     font-size: 20px;
 }
 .s3 {
@@ -311,7 +312,7 @@ position: relative;
     position: absolute;
     z-index: -2;
     bottom: -12px;
-    left: -14px;
+    left: -13px;
 }
 .c-i2 {
 position: relative;
@@ -335,7 +336,6 @@ position: relative;
 }
 .para2 {
     color: white;
-    font-family: "Poppins";
     display: flex;
     align-items: center;
     text-align: right;
@@ -348,5 +348,37 @@ position: relative;
     flex-direction: column;
     justify-content: center;
     margin-left: 20px;
+}
+@media only screen and (max-width:1200px) { 
+    .accueil {
+        margin-left: 110px;
+        transition: all .5s ease;
+    }
+    .button {
+        margin-left:110px;
+        transition: all .5s ease;
+    }
+    
+}
 
+@media only screen and (max-width:1000px) { 
+    .accueil {
+        margin-left: 50px;
+        transition: all .5s ease;
+    }
+    .button {
+        margin-left:50px;
+        transition: all .5s ease;
+    }
+    
+}
+@media only screen and (max-width:870px) { 
+    .accueil {
+        margin-left: 0px;
+        transition: all .5s ease;
+    }
+    .button {
+        margin-left:0px;
+        transition: all .5s ease;
+    } 
 }
