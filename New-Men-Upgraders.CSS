@@ -382,3 +382,83 @@ position: relative;
         transition: all .5s ease;
     } 
 }
+@media only screen and (max-width:700px) {
+    .menu {
+        display: none;
+    }
+    .button {
+        display: none;
+    }
+    .icone {
+        width: 12%;
+    }
+    .container {
+        justify-content: left;
+        padding: 0;
+  }
+    body {
+        width: fit-content;
+  }
+    .c {
+        display:block
+    }
+    .test {
+        display: block;
+    }
+    .tablette {
+        width: 100%;
+        height: fit-content;
+    }
+    .para1 {
+        text-align: center;
+    }
+    .para2 {
+        text-align: left;
+    }
+    #text1 {
+        padding-bottom: 70px;
+    }
+    .image1 {
+        width: 339px;
+        height: 409px;
+    }
+    .s2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bloctext {
+        margin-top: 50px;
+        margin-left: 0;
+    }
+    .s3 {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .carre1 {
+        width: 340px;
+        height: 411px;
+        top: -19px;
+        left: -22px;
+    }
+    .bloctext1 {
+        margin-right: 0;
+    }
+    .image2 {
+        width: 339px;
+        height: 409px;
+    }
+    .carre2 {
+        width: 175px;
+        height: 175px;
+        top: -16px;
+        right: -16px;
+    }
+    .carre3 {
+        bottom: -8px;
+        left: -9px;
+    }
+
+
+}
