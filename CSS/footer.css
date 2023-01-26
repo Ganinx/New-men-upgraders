@@ -135,7 +135,6 @@
     margin-bottom: 50px;
     line-height: 0px;
 }
-
 .button1 {
     height: 37px;
     width: 117px;
@@ -177,4 +176,52 @@
 .test {
     height: 279px;
 }
+}
+
+@media only screen and (max-width:500px) {
+  .button1 {
+    height: 18px;
+    width: 58px;
+}
+.button1 span {
+    height: 16px;
+    width: 56px;
+    font-size: 8px;
+    line-height: 17px;
+    border:solid 1px #F8C500;
+}
+.rond {
+    width: 45px;
+    height: 45px;
+}
+.prenom {
+    font-size: 10px;
+}
+.linkdin {
+    width: 10px;
+    height: 10px;
+}
+.mail {
+    width: 10px;
+    height: 10px;
+}
+.github {
+    width: 10px;
+    height: 10px;
+}
+.button1 .container1 svg {
+    padding-top: 37px;
+  }
+  .test {
+    height: 190px;
+  }
+  .Pied {
+    height: 170px;
+  }
+  .mention {
+    height: 20px;
+  }
+  .légale {
+    font-size: 10px;
+  }
 }
