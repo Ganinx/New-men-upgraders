@@ -11,13 +11,11 @@ body{
     margin: auto;
     max-width: 1110px;
     justify-content:center;
-
 }
 a {
     color: white;
     text-decoration: none
 }
-
 .flechejaune:hover {
     transform: scale(1.2);
     transition: 0.5s all;
@@ -212,3 +210,10 @@ position: relative;
         margin-top: 50px;
       }
 } 
+
+@media only screen and (max-width:500px) {
+    .fleche {
+        width: 30px;
+        height: 30px;
+    }
+}
