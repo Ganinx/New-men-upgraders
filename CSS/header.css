@@ -108,6 +108,10 @@ p {
     margin-left: 200px;
     transition: all .5s ease-out;
 }
+.invisible {
+    display: none;
+    transition: all .5s ease-out;
+}
 @media only screen and (max-width:1200px) { 
     .accueil {
         margin-left: 110px;
@@ -140,6 +144,7 @@ p {
         margin-left:0px;
         transition: all .5s ease;
     } 
+}
     @media only screen and (max-width:700px) {
         .menu {
             display: none;
@@ -154,4 +159,34 @@ p {
             justify-content: left;
             padding: 0;
       }
+      .invisible {
+            display: flex;
+            justify-content: center;
+            margin-left: 330px;
+            transition: all .5s ease;
+      }
+    }
+    @media only screen and (max-width:600px) {
+        .invisible {
+            margin-left: 250px;
+            transition: all .5s ease;
+        }
+    }
+    @media only screen and (max-width:500px) {
+        .invisible {
+            margin-left: 200px;
+            transition: all .5s ease;
+        }
+    }
+    @media only screen and (max-width:450px) {
+        .invisible {
+            margin-left: 155px;
+            transition: all .5s ease;
+        }
+    }
+    @media only screen and (max-width:400px) {
+        .invisible {
+            margin-left: 125px;
+            transition: all .5s ease;
+        }
     }
