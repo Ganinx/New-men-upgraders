@@ -148,6 +148,7 @@ position: relative;
     .tablette {
         width: 100%;
         height: fit-content;
+        -webkit-height: fit-content;
     }
     .para1 {
         text-align: center;
