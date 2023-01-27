@@ -171,6 +171,7 @@ p {
             margin-left: 250px;
             transition: all .5s ease;
         }
+        .hamburger {}
     }
     @media only screen and (max-width:500px) {
         .invisible {
