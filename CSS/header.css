@@ -22,21 +22,23 @@ nav{
     display: flex;
     align-items: center;
 }
-.button{
+.button {
     margin-left: 200px;
     white-space: nowrap;
     transition: all .5s ease-out;
-
 }
-.btn{
+.btn,
+.btn2
+{
     text-decoration: none;
     border: solid #f8c500;
-    color: white;
     padding: 6px 12px;
     margin-right: 20px;
     position: relative;
+    z-index: 1;
 }
-.btn::after {
+.btn::after,
+.btn2::after {
     content: "";
     -webkit-transition: right .3s ease-in-out;
     -o-transition: right .3s ease-in-out;
@@ -50,7 +52,8 @@ nav{
     z-index: -1;
     background-color: #f8c500;
 }
-.btn:hover::after {
+.btn:hover::after,
+.btn2:hover::after{
 right: 0%;
 }
 .icone{
@@ -112,6 +115,35 @@ p {
     display: none;
     transition: all .5s ease-out;
 }
+.menub {
+    border-top:solid #f8c500 6px;
+    background-color:#ffffff ;
+    width: 500px;
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 25px;
+    position: fixed;
+}
+.menub a {
+    color: #000;
+    font-size:  .875rem;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    padding: 13px 41px 13px 10px;
+}
+.accueil-menu , .cv-menu ,.portef-menu {
+    display: flex;
+    border-bottom: solid #f8c500 1px;
+    justify-content: left;
+    align-items: center;
+}
+.btn2 {
+    padding: 8px 10px !important;
+}
+.button2 {
+    margin-top: 30px;
+    margin-left: 10px;
+}
 @media only screen and (max-width:1200px) { 
     .accueil {
         margin-left: 110px;
@@ -162,13 +194,13 @@ p {
       .invisible {
             display: flex;
             justify-content: center;
-            margin-left: 330px;
+            margin-left: auto;
             transition: all .5s ease;
       }
     }
     @media only screen and (max-width:600px) {
         .invisible {
-            margin-left: 250px;
+            margin-left: auto;
             transition: all .5s ease;
         }
         .hamburger {
@@ -178,19 +210,19 @@ p {
     }
     @media only screen and (max-width:500px) {
         .invisible {
-            margin-left: 200px;
+            margin-left: auto;
             transition: all .5s ease;
         }
     }
     @media only screen and (max-width:450px) {
         .invisible {
-            margin-left: 155px;
+            margin-left: auto;
             transition: all .5s ease;
         }
     }
     @media only screen and (max-width:400px) {
         .invisible {
-            margin-left: 125px;
+            margin-left: auto;
             transition: all .5s ease;
         }
     }
