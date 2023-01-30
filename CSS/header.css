@@ -112,6 +112,32 @@ p {
     display: none;
     transition: all .5s ease-out;
 }
+.menub {
+    border-top:solid #f8c500 6px;
+    background-color:#ffffff ;
+    width: 100%;
+    height: 100%;
+}
+.menub a {
+    color: #000;
+    font-size: 20px;
+}
+ul {
+    padding-inline-start: 0px;
+}
+.accueil-menu , .cv-menu ,.portef-menu {
+    display: flex;
+    border-bottom: solid #f8c500 1px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 75px;
+    padding-bottom: 75px;
+}
+.accueil-menu {
+    margin-top: 75px;
+}
+
 @media only screen and (max-width:1200px) { 
     .accueil {
         margin-left: 110px;
@@ -162,31 +188,31 @@ p {
       .invisible {
             display: flex;
             justify-content: center;
-            margin-left: 330px;
+            margin-left: auto;
             transition: all .5s ease;
       }
     }
     @media only screen and (max-width:600px) {
         .invisible {
-            margin-left: 250px;
+            margin-left: auto;
             transition: all .5s ease;
         }
     }
     @media only screen and (max-width:500px) {
         .invisible {
-            margin-left: 200px;
+            margin-left: auto;
             transition: all .5s ease;
         }
     }
     @media only screen and (max-width:450px) {
         .invisible {
-            margin-left: 155px;
+            margin-left: auto;
             transition: all .5s ease;
         }
     }
     @media only screen and (max-width:400px) {
         .invisible {
-            margin-left: 125px;
+            margin-left: auto;
             transition: all .5s ease;
         }
     }
