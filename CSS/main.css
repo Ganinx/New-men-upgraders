@@ -102,8 +102,8 @@ height:552px;
 width: 486px;
 }
 .tablette {
-    width: 60%;
     height: 600px;
+    object-fit: cover;
 }
 .para1 {
     color: white;

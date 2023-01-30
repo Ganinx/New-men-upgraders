@@ -118,18 +118,20 @@ p {
 .menub {
     border-top:solid #f8c500 6px;
     background-color:#ffffff ;
-    width: 500px;
-    height: 250px;
-    margin-left: 10px;
-    margin-right: 25px;
+    width: 195px;
+    height: 235px;
     position: fixed;
+    right: 100vw;
+}
+.menub.ouvert {
+    right: 0;
 }
 .menub a {
     color: #000;
     font-size:  .875rem;
     font-weight: 600;
     letter-spacing: 0.8px;
-    padding: 13px 41px 13px 10px;
+    padding: 13px 56px 13px 51px;
 }
 .accueil-menu , .cv-menu ,.portef-menu {
     display: flex;
@@ -142,7 +144,11 @@ p {
 }
 .button2 {
     margin-top: 30px;
-    margin-left: 10px;
+    margin-left: 22px;
+}
+.menubis {
+    display: flex;
+    justify-content: right;
 }
 @media only screen and (max-width:1200px) { 
     .accueil {
@@ -203,7 +209,9 @@ p {
             margin-left: auto;
             transition: all .5s ease;
         }
-        .hamburger {}
+        .hamburger {
+            cursor: pointer;
+        }
     }
     @media only screen and (max-width:500px) {
         .invisible {
