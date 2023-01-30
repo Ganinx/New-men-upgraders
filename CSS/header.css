@@ -118,18 +118,20 @@ p {
 .menub {
     border-top:solid #f8c500 6px;
     background-color:#ffffff ;
-    width: 500px;
-    height: 250px;
-    margin-left: 10px;
-    margin-right: 25px;
+    width: 195px;
+    height: 235px;
     position: fixed;
+    right: 200vw;
+}
+.menub.ouvert {
+    right: 0;
 }
 .menub a {
     color: #000;
     font-size:  .875rem;
     font-weight: 600;
     letter-spacing: 0.8px;
-    padding: 13px 41px 13px 10px;
+    padding: 13px 56px 13px 51px;
 }
 .accueil-menu , .cv-menu ,.portef-menu {
     display: flex;
@@ -142,7 +144,32 @@ p {
 }
 .button2 {
     margin-top: 30px;
-    margin-left: 10px;
+    margin-left: 22px;
+}
+.menubis {
+    display: flex;
+    justify-content: right;
+}
+.accueil-menu::before,
+.cv-menu::before,
+.portef-menu::before {
+    transition: opacity .4s ease-in-out,visibility .4s ease-in-out,right .4s ease-in-out;
+    content: '';
+    left: 48px;
+    right: calc(100% + 6px);
+    bottom: 199px;
+    position: absolute;
+    background-color: #f8c500;
+    height: 0.125rem;
+    opacity: 0;
+    visibility: hidden;
+}
+.accueil-menu:hover::before,
+.cv-menu:hover::before,
+.portef-menu:hover::before {
+    right: 75px;
+    opacity: 1;
+    visibility: visible; 
 }
 @media only screen and (max-width:1200px) { 
     .accueil {
@@ -204,8 +231,7 @@ p {
             transition: all .5s ease;
         }
         .hamburger {
-            width: 30px;
-            height: 30px;
+            cursor: pointer;
         }
     }
     @media only screen and (max-width:500px) {
@@ -225,4 +251,5 @@ p {
             margin-left: auto;
             transition: all .5s ease;
         }
+
     }
