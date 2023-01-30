@@ -222,4 +222,37 @@ width: 486px;
         width: 30px;
         height: 30px;
     }
+    .carre1 {
+        width: 220px;
+        height: 297px;
+        top: -15px;
+        left: -15px;
+    }
+    .image1 {
+        width: 250px;
+        height: 326px;
+    }
+    .image2 {
+        width: 250px;
+        height: 326px;
+    }
+    .carre2 {
+        width: 153px;
+        height: 153px;
+        top: -12px;
+        right: -12px;
+    }
+    .carre3 {
+        width: 80px;
+        height: 80px;
+    } 
+    .text2 {
+        line-height: 27px;
+        font-size: 14px;
+    }
+    .text3 {
+        line-height: 27px;
+        font-size: 14px;
+    }
+    
 }
