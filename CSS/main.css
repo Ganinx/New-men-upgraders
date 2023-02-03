@@ -58,7 +58,6 @@ a {
     margin-right: 50px;
     color: #000000;
     font-size: 20px;
-    width: 50%;
 }
 .s3 {
     margin-top: 50px;
@@ -95,11 +94,6 @@ position: relative;
 }
 .c-i2 {
 position: relative;
-background-image: url(../images/neige.jpg);
-background-size: cover;
-width: 50%;
-height:552px;
-width: 486px;
 }
 .tablette {
     height: 600px;
