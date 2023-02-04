@@ -123,6 +123,8 @@ p {
     position: fixed;
     top: -200vw;
     transition: 1.5s all;
+    box-shadow: 0px 23px 63px 37px rgba(0,0,0,0.3);
+    z-index: 998;
 }
 .menub.ouvert {
     top: 71px;
