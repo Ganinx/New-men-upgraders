@@ -121,10 +121,12 @@ p {
     width: 195px;
     height: 235px;
     position: fixed;
-    right: 200vw;
+    top: -200vw;
+    transition: 1.5s all;
 }
 .menub.ouvert {
-    right: 0;
+    top: 72px;
+    transition: 0.8s;
 }
 .menub a {
     color: #000;
@@ -150,9 +152,7 @@ p {
     display: flex;
     justify-content: right;
 }
-.accueil-menu::before,
-.cv-menu::before,
-.portef-menu::before {
+.accueil-menu::before {
     transition: opacity .4s ease-in-out,visibility .4s ease-in-out,right .4s ease-in-out;
     content: '';
     left: 48px;
@@ -164,10 +164,42 @@ p {
     opacity: 0;
     visibility: hidden;
 }
-.accueil-menu:hover::before,
-.cv-menu:hover::before,
-.portef-menu:hover::before {
+.cv-menu::before {
+    transition: opacity .4s ease-in-out,visibility .4s ease-in-out,right .4s ease-in-out;
+    content: '';
+    left: 48px;
+    right: calc(100% + 6px);
+    bottom: 153px;
+    position: absolute;
+    background-color: #f8c500;
+    height: 0.125rem;
+    opacity: 0;
+    visibility: hidden;
+}
+.portef-menu::before {
+    transition: opacity .4s ease-in-out,visibility .4s ease-in-out,right .4s ease-in-out;
+    content: '';
+    left: 48px;
+    right: calc(100% + 6px);
+    bottom: 104px;
+    position: absolute;
+    background-color: #f8c500;
+    height: 0.125rem;
+    opacity: 0;
+    visibility: hidden;
+}
+.accueil-menu:hover::before {
     right: 75px;
+    opacity: 1;
+    visibility: visible; 
+}
+.cv-menu:hover::before {
+    right: 82px;
+    opacity: 1;
+    visibility: visible; 
+}
+.portef-menu:hover::before {
+    right: 48px;
     opacity: 1;
     visibility: visible; 
 }
