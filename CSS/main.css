@@ -37,13 +37,8 @@ a {
     justify-content: center;
     margin-top: 0px;
     text-align: justify;
-    font-size: 16px;
-    line-height: 40px;
-}
-.bloctext {
-    margin-left: 50px;
-    color: #000000;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: 600;
 }
 .text3 {
     display: flex;
@@ -51,8 +46,33 @@ a {
     justify-content: center;
     margin-top: 0px;
     text-align: justify;
-    font-size: 16px;
-    line-height: 37px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+}
+.bloctext {
+    margin-left: 50px;
+    color: #000000;
+    font-size: 20px;
+}
+.text4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    text-align: justify;
+    font-size: 30px;
+    font-weight: 600;
+}
+.text5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 400;
 }
 .bloctext1 {
     margin-right: 50px;
@@ -60,7 +80,7 @@ a {
     font-size: 20px;
 }
 .s3 {
-    margin-top: 50px;
+    margin-top: 125px;
 }
 .carre1 {
     width: 386px;
