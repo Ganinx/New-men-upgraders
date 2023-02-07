@@ -51,9 +51,23 @@ a {
     line-height: 40px;
 }
 .bloctext {
-    margin-left: 50px;
+    margin-left: 40px;
     color: #000000;
     font-size: 20px;
+    transition: .5s ease-in-out;
+    padding: 15px;
+    box-shadow: 11px 16px 19px -1px rgba(0,0,0,0.12);
+    -webkit-box-shadow: 11px 16px 19px -1px rgba(0,0,0,0.12);
+    -moz-box-shadow: 11px 16px 19px -1px rgba(0,0,0,0.12);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bloctext:hover {
+    box-shadow: 11px 16px 19px -1px rgba(0,0,0,0.40);
+    -webkit-box-shadow: 11px 16px 19px -1px rgba(0,0,0,0.40);
+    -moz-box-shadow: 11px 16px 19px -1px rgba(0,0,0,0.40);
+    transition: .5s ease-in-out;
 }
 .text4 {
     display: flex;
@@ -75,9 +89,23 @@ a {
     font-weight: 400;
 }
 .bloctext1 {
-    margin-right: 50px;
+    margin-right: 40px;
     color: #000000;
     font-size: 20px;
+    padding: 15px;
+    transition: .5s ease-in-out;
+    box-shadow: -11px 16px 19px -1px rgba(0,0,0,0.12);
+    -webkit-box-shadow: -11px 16px 19px -1px rgba(0,0,0,0.12);
+    -moz-box-shadow: -11px 16px 19px -1px rgba(0,0,0,0.12);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bloctext1:hover {
+    box-shadow: -11px 16px 19px -1px rgba(0,0,0,0.40);
+    -webkit-box-shadow: -11px 16px 19px -1px rgba(0,0,0,0.40);
+    -moz-box-shadow: -11px 16px 19px -1px rgba(0,0,0,0.40);
+    transition: .5s ease-in-out;
 }
 .s3 {
     margin-top: 125px;
