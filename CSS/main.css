@@ -31,7 +31,7 @@ a {
 #text1 {
     margin-bottom: 150px;
 }
-.text2 {
+.text-grand {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,7 +40,7 @@ a {
     font-size: 30px;
     font-weight: 600;
 }
-.text3 {
+.text-petit {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,25 +68,6 @@ a {
     -webkit-box-shadow: 11px 16px 19px -1px rgba(0,0,0,0.40);
     -moz-box-shadow: 11px 16px 19px -1px rgba(0,0,0,0.40);
     transition: .5s ease-in-out;
-}
-.text4 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 0px;
-    text-align: justify;
-    font-size: 30px;
-    font-weight: 600;
-}
-.text5 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 0px;
-    text-align: justify;
-    font-size: 18px;
-    line-height: 40px;
-    font-weight: 400;
 }
 .bloctext1 {
     margin-right: 40px;
@@ -232,7 +213,7 @@ position: relative;
         left: -22px;
     }
     .bloctext1 {
-        font-size: 16px;
+        margin-top: 50px;
         margin-right: 30px;
         margin-left: 30px;
     }
@@ -250,12 +231,12 @@ position: relative;
         bottom: -8px;
         left: -9px;
     }
-      .text2 {
-        line-height: 30px;
+    .text-grand {
+        font-size: 20px;
       }
-      .text3 {
+    .text-petit {
+        font-size:14px;
         line-height: 30px;
-        margin-top: 50px;
       }
 } 
 
