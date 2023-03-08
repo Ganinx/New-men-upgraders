@@ -36,7 +36,6 @@ a {
     align-items: center;
     justify-content: center;
     margin-top: 0px;
-    text-align: justify;
     font-size: 30px;
     font-weight: 600;
 }
@@ -45,7 +44,6 @@ a {
     align-items: center;
     justify-content: center;
     margin-top: 0px;
-    text-align: justify;
     font-size: 18px;
     font-weight: 400;
     line-height: 40px;
@@ -125,7 +123,7 @@ position: relative;
 position: relative;
 }
 .tablette {
-    height: 600px;
+    width: 72%;
     object-fit: cover;
 }
 .para1 {
@@ -164,6 +162,69 @@ position: relative;
     align-items: center;
     margin: 0;
 }
+@media only screen and (max-width:1150px) {
+    .tablette {
+        width:84%;
+        margin: auto;
+    }
+    .paragraphe {
+        display: block;
+        width: 84%;
+        margin: auto;
+    }
+    .s1 {
+        flex-direction: column;
+    }
+    .para1 {
+        text-align: left;
+        margin: 0;
+    }
+    .para2 {
+        text-align: left;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .c {
+        max-width: 1000px;
+    }
+    .bloctext1 {
+        height: 552px;
+        padding: 0  15px 0  15px;
+    }
+    .text-grand {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .text-petit {
+        line-height: 35px;
+    }
+    .bloctext {
+        padding: 0  15px 0  15px;
+    }
+}
+@media only screen and (max-width:1150px) {
+    .s2 {
+        flex-direction: column;
+    }
+    .s3 {
+        flex-direction: column-reverse;
+    }
+    .c-i {
+        margin: auto;
+    }
+    .c-i2 {
+        margin: auto;
+    }
+    .bloctext {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .bloctext1 {
+        margin-top :20px;
+        height: auto;
+        margin-right: 0px;
+    }
+}
 
 @media only screen and (max-width:700px) {
     body {
@@ -176,14 +237,11 @@ position: relative;
         width: 100%;
         height: auto;
     }
-    .para1 {
-        text-align: center;
-    }
     .para2 {
         text-align: left;
     }
     #text1 {
-        padding-bottom: 70px;
+        padding-bottom: 20px;
         margin-bottom: 100px;
     }
     .image1 {
