@@ -23,6 +23,7 @@ a {
 .image1 {
     width:486px ;
     height:552px;
+    object-fit: cover;
 }
 .image2 {
     width:486px ;
