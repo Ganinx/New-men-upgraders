@@ -231,9 +231,6 @@ position: relative;
 }
 
 @media only screen and (max-width:700px) {
-    body {
-        width: fit-content;
-  }
     .c {
         display:block
     }

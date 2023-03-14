@@ -12,13 +12,29 @@
                     <a class="btn" href="https://humanbooster.com/">Nous contacter </a>
                 </div>
                 <div class="invisible">
-                    <svg class="hamburger" width="46" height="46" fill="none" stroke="#f8c500" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M4.5 14.25h15"></path>
-                        <path d="M4.5 9.75h15"></path>
-                        <path d="M4.5 5.25h15"></path>
-                        <path d="M4.5 18.75h15"></path>
-                      </svg>
+                    <div class="icon nav-icon-5">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
                 </div>
             </ul>
         </nav>
 </header>
+<div class="menubis">
+        <div class="menub">
+            <div class="accueil-menu">
+             <a href="">ACCUEIL</a>
+            </div>
+            <div class="cv-menu">
+             <a href="">NOS CV</a>
+            </div>
+            <div class="portef-menu">
+                <a href="">PORTEFOLIO</a>
+            </div>
+            <div class="button2">
+                <a class="btn2" href="https://humanbooster.com/">Nous contacter </a>
+            </div>
+        </div>  
+    </div> 
+<script src="js/menu.js"></script>
