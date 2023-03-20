@@ -15,7 +15,7 @@ nav{
     left: 0;
     display: flex;
     justify-content: center;
-    z-index: 999;
+    z-index: 700;
     height: 75px;
 }
 .menu {
