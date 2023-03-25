@@ -1,5 +1,5 @@
-const image = document.getElementsByClassName('zoomable')[0];
-var body = document.getElementsByClassName('fond-noir')[0];
+var image = document.getElementsByClassName('zoomable')[0,2];
+var body = document.getElementsByClassName('fond-noir')[0,2];
 var no = document.getElementById('no-scroll');
 
 image.addEventListener('click', () => {
