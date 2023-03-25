@@ -13,4 +13,4 @@ document.querySelectorAll(".zoomable").forEach(image => {
     body3.classList.toggle('body-noir3');
     no.classList.toggle('bouge-pas');
   });
-});;
+});
