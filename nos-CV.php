@@ -37,23 +37,23 @@
     <div class=fond-noir></div>
     <section class="container-cv">
         <div class="cv-texte">
-	        <div id="deuxieme-cv" class="image-container">
-                <a href="#deuxieme-cv">
-		        <img src="images/cv-valentin.png" alt="Image avec taille augmentée et fond noir" class="zoomable">
-                </a>
-	        </div>
-            <div class="texte-paragraphe">
+        <div class="texte-paragraphe mid">
                 <h3>José Vale Costa</h3>
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, corrupti! Totam delectus repellat sunt quos fuga! Quidem, sapiente tempora ut reiciendis nemo error labore perspiciatis ex odio nesciunt optio officia asperiores quos libero enim unde necessitatibus suscipit placeat quam beatae? Assumenda maxime illum optio, nostrum repellat et? Aliquid, consectetur? Tempore!</h4>
             </div>
+	        <div id="deuxieme-cv" class="image-container">
+                <a href="#deuxieme-cv">
+		        <img src="images/cv-jose.png" alt="Image avec taille augmentée et fond noir" class="zoomable">
+                </a>
+	        </div>
         </div>
     </section>
-    <div class=fond-noir></div>
+    <div class=fond-noir2></div>
     <section class="container-cv">
         <div class="cv-texte">
 	        <div id="troisieme-cv" class="image-container">
                 <a href="#troisieme-cv">
-		        <img src="images/cv-valentin.png" alt="Image avec taille augmentée et fond noir" class="zoomable">
+		        <img src="images/cv-thomas.png" alt="Image avec taille augmentée et fond noir" class="zoomable">
                 </a>
 	        </div>
             <div class="texte-paragraphe">
@@ -62,7 +62,7 @@
             </div>
         </div>
     </section>
-    <div class=fond-noir></div>
+    <div class=fond-noir3></div>
 <?php include "Footer.php" ?>
 <script src="js/cv.js"></script>
 </body>
