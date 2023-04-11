@@ -59,7 +59,7 @@
 .container-cv {
     max-width: 1110px;
     margin: auto;
-
+    position: relative;
 }
 #premier-cv, #deuxieme-cv, #troisieme-cv {
     padding-top: 100px ;
@@ -93,3 +93,174 @@
 h3 { 
     font-size: 26px;
 }
+.carre-cv-val {
+    width: 280px;
+    height: 374px;
+    position: absolute;
+    top: 69px;
+    left: 11px;
+    background: linear-gradient(to right, #000 0%, #707070 100%);
+    z-index: -2;
+}
+.carre-cv-joe {
+    width: 280px;
+    height: 374px;
+    position: absolute;
+    top: 69px;
+    right: 11px;
+    background: linear-gradient(to right, #000 0%, #707070 100%);
+    z-index: -2;
+}
+.carre-cv-tom {
+    width: 280px;
+    height: 374px;
+    position: absolute;
+    top: 69px;
+    left: 11px;
+    background: linear-gradient(to right, #000 0%, #707070 100%);
+    z-index: -2;
+}
+.carre-cv-opaque {
+    opacity: 0;
+}
+.triangle {
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-top: 131px solid #f8c500;
+    border-right: 150px solid transparent;
+    top: -245px;
+    rotate: 169deg;
+    opacity: 0.9;
+    z-index: -2;
+    left: 930px;
+}
+.triangle2 {
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-top: 153px solid #f8c500;
+    border-right: 179px solid transparent;
+    top: 346px;
+    rotate: 61deg;
+    opacity: 0.9;
+    z-index: -2;
+    left: -29px;
+}
+.triangle3 {
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-top: 150px solid #f8c500;
+    border-right: 150px solid transparent;
+    top: 631px;
+    rotate: 245deg;
+    opacity: 0.9;
+    z-index: -2;
+    right: 54px;
+}
+.text-cv-disparait {
+    opacity: 0;
+}
+.triangle-opaque {
+    opacity: 0;
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  .guillemet {
+    position: absolute;
+    width: 12%;
+    top: -53px;
+    left: -88px;
+  }
+  .mySlides h4 {
+    box-shadow: 0px 16px 19px -1px rgba(0,0,0,0.12);
+    padding: 40px 60px;
+  }
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: #f8c500
+  }
+  
+  /* Caption text */
+  .text-slide {
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 9px;
+    width: 8px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #f8c500;
+    border: solid 1px #f8c500;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }

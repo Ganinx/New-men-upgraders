@@ -22,13 +22,14 @@
 <body id="no-scroll">
 <?php include "Header.php"?>
     <section class="container-cv">
+        <div class="carre-cv-val" id="carre-cv"></div>
         <div class="cv-texte">
 	        <div id="premier-cv" class="image-container">
                 <a href="#premier-cv">
 		        <img src="images/cv-valentin.png" alt="Image avec taille augmentée et fond noir" class="zoomable">
                 </a>
 	        </div>
-            <div class="texte-paragraphe">
+            <div class="texte-paragraphe" id="text-opaque">
                 <h3>Valentin Delomenie</h3>
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, corrupti! Totam delectus repellat sunt quos fuga! Quidem, sapiente tempora ut reiciendis nemo error labore perspiciatis ex odio nesciunt optio officia asperiores quos libero enim unde necessitatibus suscipit placeat quam beatae? Assumenda maxime illum optio, nostrum repellat et? Aliquid, consectetur? Tempore!</h4>
             </div>
@@ -36,8 +37,12 @@
     </section>
     <div class=fond-noir></div>
     <section class="container-cv">
+    <div class="carre-cv-joe" id="carre-cv2"></div>
+    <div class="triangle"></div>
+    <div class="triangle2" id="triangle2"></div>
+    <div class="triangle3" id="triangle3"></div>
         <div class="cv-texte">
-        <div class="texte-paragraphe mid">
+        <div class="texte-paragraphe mid" id="text-opaque2">
                 <h3>José Vale Costa</h3>
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, corrupti! Totam delectus repellat sunt quos fuga! Quidem, sapiente tempora ut reiciendis nemo error labore perspiciatis ex odio nesciunt optio officia asperiores quos libero enim unde necessitatibus suscipit placeat quam beatae? Assumenda maxime illum optio, nostrum repellat et? Aliquid, consectetur? Tempore!</h4>
             </div>
@@ -50,20 +55,53 @@
     </section>
     <div class=fond-noir2></div>
     <section class="container-cv">
+    <div class="carre-cv-tom" id="carre-cv3"></div>
         <div class="cv-texte">
 	        <div id="troisieme-cv" class="image-container">
                 <a href="#troisieme-cv">
 		        <img src="images/cv-thomas.png" alt="Image avec taille augmentée et fond noir" class="zoomable">
                 </a>
 	        </div>
-            <div class="texte-paragraphe">
+            <div class="texte-paragraphe" id="text-opaque3">
                 <h3>Thomas Saupique</h3>
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, corrupti! Totam delectus repellat sunt quos fuga! Quidem, sapiente tempora ut reiciendis nemo error labore perspiciatis ex odio nesciunt optio officia asperiores quos libero enim unde necessitatibus suscipit placeat quam beatae? Assumenda maxime illum optio, nostrum repellat et? Aliquid, consectetur? Tempore!</h4>
             </div>
         </div>
     </section>
     <div class=fond-noir3></div>
+    <div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <img src="images/left-quote.png" class="guillemet" alt="">
+  <div class="mySlides fade">
+    <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, incidunt. Minus, repellat. Alias soluta amet possimus pariatur modi voluptate quis optio. Commodi aliquam beatae laboriosam minima tenetur quibusdam, ad dignissimos debitis recusandae officiis, impedit accusamus soluta, odio rem fuga voluptates.</h4>
+    <div class="text-slide">- Ellon Musk</div>
+  </div>
+
+  <div class="mySlides fade">
+    <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, incidunt. Minus, repellat. Alias soluta amet possimus pariatur modi voluptate quis optio. Commodi aliquam beatae laboriosam minima tenetur quibusdam, ad dignissimos debitis recusandae officiis, impedit accusamus soluta, odio rem fuga voluptates.</h4>
+    <div class="text-slide">- Bill Gates</div>
+  </div>
+
+  <div class="mySlides fade">
+    <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, incidunt. Minus, repellat. Alias soluta amet possimus pariatur modi voluptate quis optio. Commodi aliquam beatae laboriosam minima tenetur quibusdam, ad dignissimos debitis recusandae officiis, impedit accusamus soluta, odio rem fuga voluptates.</h4>
+    <div class="text-slide">- Mark Zuckerberg</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
 <?php include "Footer.php" ?>
 <script src="js/cv.js"></script>
+<script src="js/carrousselle.js"></script>
 </body>
 </html>
