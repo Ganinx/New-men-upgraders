@@ -25,22 +25,22 @@ include "Header.php";
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
-    <img src="images/ice-cream.png" style="width:100%">
+    <img class="arondie-slide" src="images/ice-cream.png" style="width:100%">
     <div class="text"></div>
   </div>
 
   <div class="mySlides fade">
-    <img src="images/apple.png" style="width:100%">
+    <img  class="arondie-slide" src="images/apple.png" style="width:100%">
     <div class="text"></div>
   </div>
 
   <div class="mySlides fade">
-    <img src="images/capture.png" style="width:100%">
+    <img class="arondie-slide" src="images/capture.png" style="width:100%">
     <div class="text"></div>
   </div>
 
   <div class="mySlides fade">
-    <img src="images/hera.png" style="width:100%">
+    <img class="arondie-slide" src="images/hera.png" style="width:100%">
     <div class="text"></div>
   </div>
 
@@ -63,22 +63,22 @@ include "Header.php";
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides2 fade">
-    <img src="images/oneway.png" style="width:100%">
+    <img class="arondie-slide" src="images/oneway.png" style="width:100%">
     <div class="text"></div>
   </div>
 
   <div class="mySlides2 fade">
-    <img src="images/cirque.png" style="width:100%">
+    <img class="arondie-slide" src="images/cirque.png" style="width:100%">
     <div class="text"></div>
   </div>
 
   <div class="mySlides2 fade">
-    <img src="images/logos.png" style="width:100%">
+    <img class="arondie-slide" src="images/logos.png" style="width:100%">
     <div class="text"></div>
   </div>
 
   <div class="mySlides2 fade">
-    <img src="images/nation.png" style="width:100%">
+    <img class="arondie-slide" src="images/nation.png" style="width:100%">
     <div class="text"></div>
   </div>
 
@@ -100,22 +100,22 @@ include "Header.php";
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides3 fade">
-    <img src="images/oneway.png" style="width:100%">
+    <img class="arondie-slide" src="images/oneway.png" style="width:100%">
     <div class="text"></div>
   </div>
 
   <div class="mySlides3 fade">
-    <img src="images/cirque.png" style="width:100%">
+    <img class="arondie-slide" src="images/cirque.png" style="width:100%">
     <div class="text"></div>
   </div>
 
   <div class="mySlides3 fade">
-    <img src="images/logos.png" style="width:100%">
+    <img class="arondie-slide" src="images/logos.png" style="width:100%">
     <div class="text"></div>
   </div>
 
   <div class="mySlides3 fade">
-    <img src="images/nation.png" style="width:100%">
+    <img class="arondie-slide" src="images/nation.png" style="width:100%">
     <div class="text"></div>
   </div>
 
