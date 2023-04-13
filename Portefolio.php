@@ -22,7 +22,11 @@ include "Header.php";
 ?>
 <!-- José -->
 <div class="slideshow-container">
-
+  <span class="carre-noir"></span>
+  <div class="titre-pf">
+    <h2>José</h2>
+  </div>
+  
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <img class="arondie-slide" src="images/ice-cream.png" style="width:100%">
@@ -60,10 +64,14 @@ include "Header.php";
 
 <!-- Val -->
 <div class="slideshow-container">
-
+<span class="carre-noir"></span>
+  <div class="titre-pf">
+    <h2>Valentin</h2>
+  </div>
+  
   <!-- Full-width images with number and caption text -->
   <div class="mySlides2 fade">
-    <img class="arondie-slide" src="images/oneway.png" style="width:100%">
+    <img class="arondie-slide" src="images/oneway4.png" style="width:100%">
     <div class="text"></div>
   </div>
 
@@ -78,7 +86,7 @@ include "Header.php";
   </div>
 
   <div class="mySlides2 fade">
-    <img class="arondie-slide" src="images/nation.png" style="width:100%">
+    <img class="arondie-slide" src="images/nation2.png" style="width:100%">
     <div class="text"></div>
   </div>
 
@@ -97,7 +105,11 @@ include "Header.php";
 </div>
 <!-- tom -->
 <div class="slideshow-container">
-
+<span class="carre-noir"></span>
+  <div class="titre-pf">
+    <h2>Thomas</h2>
+  </div>
+  
   <!-- Full-width images with number and caption text -->
   <div class="mySlides3 fade">
     <img class="arondie-slide" src="images/oneway.png" style="width:100%">

@@ -19,7 +19,6 @@
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
   padding: 16px;
   color: white;
   font-weight: bold;
@@ -83,9 +82,37 @@
 }
 .arondie-slide {
   border-radius: 30px;
-  box-shadow: 0px 16px 19px -1px rgba(0,0,0,0.12);
+  box-shadow: 0px 16px 19px -1px rgba(0,0,0,0.12) , 5px -9px 30px -23px #000000;
+  width: 1000px;
+  height: 500px;
+  object-fit: cover;
 }
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+.slideshow-container h2 {
+  display: inline-block;
+  font-size: 30px;
+  color: #000000;
+  letter-spacing: .1em;
+  text-shadow:2px 3px 3px #fff, 0 1px 0 #2e2e2e00, 0 3px 0 #f8c500 , 5px 7px 2px rgb(215 201 108 / 0%);
+  cursor: default;
+  transition: 0.7s all;
+}
+.slideshow-container h2:hover {
+  scale: 1.5;
+  transition: 0.7s all;
+}
+.titre-pf {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.carre-noir {
+  width: 200px;
+    display: block;
+    position: absolute;
+    width: 813px;
+    height: 429px;
+    left: -44px;
+    top: 91px;
+    background: linear-gradient(90deg, rgba(9, 9, 9, 0.9215) 28.29%, rgba(99, 99, 99, 0.97) 62.34%, rgba(99, 99, 99, 0.9118) 69.63%, rgba(99, 99, 99, 0.8439) 77.69%, rgba(99, 99, 99, 0.6887) 86.98%, rgba(112, 112, 112, 0.582) 101.65%);
+    border-radius: 50px;
+    z-index: -10;
 }
