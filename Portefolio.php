@@ -20,25 +20,31 @@
 include "Header.php";
 
 ?>
-<!-- Thomas -->
+<!-- José -->
 <div class="slideshow-container">
-
+  <span class="carre-noir"></span>
+  <div class="titre-pf">
+    <h2>José</h2>
+  </div>
+  
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="images/dehors.jpg" style="width:100%">
+    <img class="arondie-slide" src="images/ice-cream.png" style="width:100%">
     <div class="text"></div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="images/photo-principal.jpeg" style="width:100%">
+    <img  class="arondie-slide" src="images/apple.png" style="width:100%">
     <div class="text"></div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="images/goblet.jpg" style="width:100%">
+    <img class="arondie-slide" src="images/capture.png" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img class="arondie-slide" src="images/hera.png" style="width:100%">
     <div class="text"></div>
   </div>
 
@@ -53,78 +59,91 @@ include "Header.php";
   <span class="dot" onclick="currentSlide(1)"></span>
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
 </div>
 
-<!-- Valentin -->
+<!-- Val -->
 <div class="slideshow-container">
-
+<span class="carre-noir"></span>
+  <div class="titre-pf">
+    <h2>Valentin</h2>
+  </div>
+  
   <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="images/dehors.jpg" style="width:100%">
+  <div class="mySlides2 fade">
+    <img class="arondie-slide" src="images/oneway4.png" style="width:100%">
     <div class="text"></div>
   </div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="images/photo-principal.jpeg" style="width:100%">
+  <div class="mySlides2 fade">
+    <img class="arondie-slide" src="images/cirque.png" style="width:100%">
     <div class="text"></div>
   </div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="images/goblet.jpg" style="width:100%">
+  <div class="mySlides2 fade">
+    <img class="arondie-slide" src="images/logos.png" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides2 fade">
+    <img class="arondie-slide" src="images/nation2.png" style="width:100%">
     <div class="text"></div>
   </div>
 
   <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides2(1)">&#10095;</a>
 </div>
 <br>
 
 <!-- The dots/circles -->
 <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot2" onclick="currentSlide2(1)"></span>
+  <span class="dot2" onclick="currentSlide2(2)"></span>
+  <span class="dot2" onclick="currentSlide2(3)"></span>
+  <span class="dot2" onclick="currentSlide2(4)"></span>
 </div>
-
-<!-- Jose -->
+<!-- tom -->
 <div class="slideshow-container">
-
+<span class="carre-noir"></span>
+  <div class="titre-pf">
+    <h2>Thomas</h2>
+  </div>
+  
   <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="images/dehors.jpg" style="width:100%">
+  <div class="mySlides3 fade">
+    <img class="arondie-slide" src="images/oneway.png" style="width:100%">
     <div class="text"></div>
   </div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="images/photo-principal.jpeg" style="width:100%">
+  <div class="mySlides3 fade">
+    <img class="arondie-slide" src="images/cirque.png" style="width:100%">
     <div class="text"></div>
   </div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="images/goblet.jpg" style="width:100%">
+  <div class="mySlides3 fade">
+    <img class="arondie-slide" src="images/logos.png" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides3 fade">
+    <img class="arondie-slide" src="images/nation.png" style="width:100%">
     <div class="text"></div>
   </div>
 
   <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides3(1)">&#10095;</a>
 </div>
 <br>
 
 <!-- The dots/circles -->
 <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot3" onclick="currentSlide3(1)"></span>
+  <span class="dot3" onclick="currentSlide3(2)"></span>
+  <span class="dot3" onclick="currentSlide3(3)"></span>
+  <span class="dot3" onclick="currentSlide3(4)"></span>
 </div>
-
 <?php
 
 include "Footer.php";
@@ -132,6 +151,8 @@ include "Footer.php";
 ?>
 
 <script src="js/carrousselle.js"></script>
+<script src="js/carrouselle-val.js"></script>
+<script src="js/carrouselle-tom.js"></script>
 
 </body>
 </html>
