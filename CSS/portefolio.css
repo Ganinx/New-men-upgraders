@@ -5,10 +5,11 @@
   max-width: 1000px;
   position: relative;
   margin: auto;
+  margin-top: 100px;
 }
 
 /* Hide the images by default */
-.mySlides {
+.mySlides ,.mySlides2 ,.mySlides3 {
   display: none;
 }
 
@@ -60,7 +61,7 @@
 }
 
 /* The dots/bullets/indicators */
-.dot {
+.dot , .dot2 , .dot3 {
   cursor: pointer;
   height: 15px;
   width: 15px;
