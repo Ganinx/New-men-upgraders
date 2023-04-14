@@ -1,5 +1,5 @@
 .container-form {
-    max-width: 980px;
+    max-width: 620px;
     margin: auto;
     margin-top: 100px;
 }
@@ -9,11 +9,8 @@
 }
 .block-form {
     background-color: white;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px;
+    padding: 40px;
+    max-width: 447px;
 }
 .nom-form h3 {
     margin-top: 0;
@@ -23,7 +20,7 @@
 }
 .civilite {
     display: flex;
-    width: 408px;
+    max-width: 408px;
     justify-content: space-between;
 }
 h3 {
@@ -36,12 +33,33 @@ label {
 .confidentialite input {
     margin: 0;
 }
-.confidentialite {
-    width: 70%;
-}
 #checkbox:checked {
 background-color: #f8c500;  
 }
 #checkbox {
-    accent-color: #f8c500; 
+    accent-color: #f8c500;
+    vertical-align: middle;
+}
+#message-form {
+    width: 433px;
+    height: 229px;
+    resize: none;
+}
+input:focus {
+        box-shadow: 0px 16px 19px -1px rgba(0,0,0,0.12), 0px -20px 30px -23px #000000;
+}
+input {
+    outline: none;
+}
+.button-form {
+    text-align: end;
+}
+.button-form .btn a {
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+}
+.button-form .btn:hover a {
+    color: white;
+    transition: 0.2s ease-in-out;
 }

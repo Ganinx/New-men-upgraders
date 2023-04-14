@@ -41,7 +41,7 @@
                     <label for="consentement">J'accepte que les informations renseignées ci-dessus soient exploitées dans le cadre de ma démarche d'information chez New-Men-Upgrades</label>
                 </div>
                 <div class="button-form">
-                    <button type="submit">Envoyer</button>
+                    <button type="submit" class="btn"><a href=""> Envoyer</a></button>
                 </div>
             </div>
         </div>
