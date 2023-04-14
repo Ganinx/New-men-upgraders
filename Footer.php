@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="CSS/footer.css">
 <footer class="Pied">
         <div class="test">
             <div class="class1">

@@ -1,0 +1,47 @@
+.container-form {
+    max-width: 980px;
+    margin: auto;
+    margin-top: 100px;
+}
+.block-noir {
+    background: linear-gradient(to right, #000 0%, #707070 100%);
+    padding: 50px;
+}
+.block-form {
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.nom-form h3 {
+    margin-top: 0;
+}
+.prenom-form h3 {
+    margin-top: 0;
+}
+.civilite {
+    display: flex;
+    width: 408px;
+    justify-content: space-between;
+}
+h3 {
+    font-size: 22px;
+    margin: 5px 0px;
+}
+label {
+    font-size: 14px;
+}
+.confidentialite input {
+    margin: 0;
+}
+.confidentialite {
+    width: 70%;
+}
+#checkbox:checked {
+background-color: #f8c500;  
+}
+#checkbox {
+    accent-color: #f8c500; 
+}
