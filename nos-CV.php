@@ -75,7 +75,7 @@
   <img src="images/left-quote.png" class="guillemet" alt="">
   <div class="mySlides fade">
     <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, incidunt. Minus, repellat. Alias soluta amet possimus pariatur modi voluptate quis optio. Commodi aliquam beatae laboriosam minima tenetur quibusdam, ad dignissimos debitis recusandae officiis, impedit accusamus soluta, odio rem fuga voluptates.</h4>
-    <div class="text-slide">- Ellon Musk</div>
+    <div class="text-slide">- Elon Musk</div>
   </div>
 
   <div class="mySlides fade">
