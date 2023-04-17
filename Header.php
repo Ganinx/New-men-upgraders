@@ -29,13 +29,13 @@
 <div class="menubis">
         <div class="menub">
             <div class="accueil-menu">
-             <a href="">ACCUEIL</a>
+             <a href="index.html">ACCUEIL</a>
             </div>
             <div class="cv-menu">
-             <a href="">NOS CV</a>
+             <a href="nos-CV.php">NOS CV</a>
             </div>
             <div class="portef-menu">
-                <a href="">PORTEFOLIO</a>
+                <a href="Portefolio.php">PORTEFOLIO</a>
             </div>
             <div class="button2">
                 <a class="btn2" href="https://humanbooster.com/">Nous contacter </a>
