@@ -94,7 +94,7 @@
 </footer>
         <section class="mention">
             <div class="légale">
-               <a class="légale" href="">Mention légal © NewmenUprgraders</a>
+               <a class="légale" href="mention-legale.php">Mention légal © NewmenUprgraders</a>
             </div>
         </section>
         <script src="js/fleche.js"></script>
