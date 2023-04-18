@@ -50,3 +50,13 @@ footer {
 .button1 .container1 {
     transform: translateY(-86px)!important;
 }
+p {
+    color: black!important;
+    line-height: 50px;
+    letter-spacing: 5px!important;
+}
+.container-mention {
+    max-width: 1110px;
+    margin: auto;
+    margin-top: 150px;
+}

@@ -12,9 +12,36 @@
     <title>Mention légale</title>
 </head>
 <body>
-    <?php include "header.php";
+    <?php include "header.php";?>
+    <div class="container-mention">
+        <p>MENTIONS LÉGALES
 
-
-    include "footer.php";?>
+        Conformément aux dispositions de la loi n° 2004-575 du 21 juin 2004 pour la confiance en l'économie numérique, il est précisé aux utilisateurs du site New-men-upgraders l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi.
+        
+        Edition du site 
+        
+        Le présent site, accessible à l’URL www.new-men-upgraders.fr (le « Site »), est édité par :
+        
+        Thomas Saupiques, résidant 43 rue des vieillards, de nationalité Française (France), né(e) le 14/05/1982, 
+        
+        
+        Hébergement
+        
+        Le Site est hébergé par la société OVH SAS, situé 2 rue Kellermann - BP 80157 - 59053 Roubaix Cedex 1, (contact téléphonique ou email : 1007).
+        
+        Directeur de publication 
+        
+        Le Directeur de la publication du Site est Thomas Saupiques.
+        
+        Nous contacter 
+        
+        Par téléphone : +33607080910
+        Par email : devart.comcci@gmail.com
+        Par courrier : 43 rue des vieillards
+        
+        Génération des mentions légales par Legalstart.
+        </p>
+    </div>
+    <?php include "footer.php";?>
 </body>
 </html>
