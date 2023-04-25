@@ -72,3 +72,40 @@ input {
     color: white;
     transition: 0.2s ease-in-out;
 }
+*{
+    transition: 0.5s all;
+}
+@media only screen and (max-width:700px) {
+    .container-form {
+        max-width: 500px;
+    }
+    .nom-form input {
+        width: 150px;
+    }
+    .prenom-form input {
+        width: 150px;
+    }
+    .block-noir {
+        padding: 40px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .block-form {
+        padding: 20px;
+    }
+    .civilite {
+        max-width: 389px;
+    }
+    .adresse-form input  {
+        width: 300px!important;
+    }
+    .telephone-form input {
+        width: 300px!important;
+    }
+    #message-form {
+        width: 307px;
+    }
+    *{
+        transition: 0.5s all;
+    }
+}
