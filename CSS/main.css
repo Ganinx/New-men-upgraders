@@ -201,8 +201,7 @@ position: relative;
     .bloctext {
         padding: 0  15px 0  15px;
     }
-}
-@media only screen and (max-width:1150px) {
+
     .s2 {
         flex-direction: column;
     }
@@ -225,6 +224,7 @@ position: relative;
         margin-right: 0px;
     }
 }
+
 
 @media only screen and (max-width:700px) {
     .c {

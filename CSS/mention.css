@@ -30,9 +30,6 @@ nav {
 footer {
     background: linear-gradient(to left, #cbdb62 0%, #ab1616 100%)!important;
 }
-*{
-    font-family: 'Rubik Pixels'!important;
-}
 .cv, .accueil {
     border-right: solid #b11b84 4px!important;
     line-height: 48px!important;
