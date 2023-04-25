@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="CSS/footer.css">
+<link rel="icon" type="image/png" href="images/Logo-nmu4.png"/>
 <footer class="Pied">
         <div class="test">
             <div class="class1">

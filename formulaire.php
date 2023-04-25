@@ -7,6 +7,7 @@
     <title>Formulaire</title>
     <link rel="stylesheet" href="CSS/formulaire.css">
     <link rel="stylesheet" href="CSS/main.css">
+    <link rel="icon" type="image/png" href="images/Logo-nmu4.png"/>
 </head>
 <body>
 <?php include "Header.php"?>

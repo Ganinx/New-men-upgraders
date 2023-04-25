@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="CSS/mention.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="images/Logo-nmu4.png"/>
     <title>Mention légale</title>
 </head>
 <body>
-    <?php include "header.php";?>
+    <?php include "Header.php";?>
     <div class="container-mention">
         <p>MENTIONS LÉGALES
 
@@ -40,6 +41,6 @@
         Génération des mentions légales par Legalstart.
         </p>
     </div>
-    <?php include "footer.php";?>
+    <?php include "Footer.php";?>
 </body>
 </html>

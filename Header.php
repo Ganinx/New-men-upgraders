@@ -11,7 +11,7 @@
                 <div class="menu">
                     <li class="accueil"><a href="index.html">Accueil </a></li>
                     <li class="cv"><a href="nos-CV.php">Nos CV</a></li>
-                    <li class="portef" ><a href="portefolio.php">Portefolio</a></li>
+                    <li class="portef" ><a href="Portefolio.php">Portefolio</a></li>
                 </div>
                 <div class="button">
                     <a class="btn" href="formulaire.php">Nous contacter </a>
@@ -38,7 +38,7 @@
                 <a href="Portefolio.php">PORTEFOLIO</a>
             </div>
             <div class="button2">
-                <a class="btn2" href="https://humanbooster.com/">Nous contacter </a>
+                <a class="btn2" href="formulaire.php">Nous contacter </a>
             </div>
         </div>  
     </div> 

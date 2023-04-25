@@ -125,7 +125,7 @@ p {
     transition: all .5s ease-out;
 }
 .menub {
-    border-top:solid #f8c500 6px;
+    border-top:solid #f8c500 3px;
     background-color:#ffffff ;
     width: 195px;
     height: 235px;

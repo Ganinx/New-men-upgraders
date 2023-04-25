@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="CSS/footer.css">
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/portefolio.css">
+    <link rel="icon" type="image/png" href="images/Logo-nmu4.png"/>
 
 <body>
 <?php 
@@ -39,7 +40,7 @@ include "Header.php";
   </div>
 
   <div class="mySlides fade">
-    <img class="arondie-slide" src="images/capture.png" style="width:100%">
+    <img class="arondie-slide" src="images/Capture.png" style="width:100%">
     <div class="text"></div>
   </div>
 

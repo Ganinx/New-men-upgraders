@@ -197,3 +197,44 @@
     top: 89px;
   }
 }
+@media only screen and (max-width:520px) {
+  .slideshow-container {
+    max-width: 345px;
+    transition: all .5s ease;
+  }
+  .arondie-slide {
+    height: 180px;
+    transition: all .5s ease;
+  }
+  .titre-pf h2 {
+    font-size: 25px;
+    transition: all .5s ease;
+  }
+  .carre-noir {
+    transition: all .5s ease;
+    width:309px ;
+    height: 171px;
+    top: 89px;
+  }
+}
+@media only screen and (max-width:360px) {
+  .slideshow-container {
+    max-width: 271px;
+    transition: all .5s ease;
+  }
+  .arondie-slide {
+    height: 140px;
+    transition: all .5s ease;
+  }
+  .titre-pf h2 {
+    font-size: 25px;
+    transition: all .5s ease;
+  }
+  .carre-noir {
+    transition: all .5s ease;
+    width: 249px;
+    height: 130px;
+    top: 98px;
+    left: -17px;
+  }
+}
