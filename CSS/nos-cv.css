@@ -324,3 +324,21 @@ h3 {
       margin-left: 20px;
     }
   }
+  @media only screen and (max-width:500px) {
+    .image-container img.zoom {
+      top: 50px;
+      left: 0px;
+      transform: rotate3d(1, 1, 1, 360deg) scale(1.2);
+    }
+    #deuxieme-cv .zoom2  {
+      top: 50px;
+      left: 0px;
+      transform: rotate3d(1, 1, 1, 360deg) scale(1.2);
+    }
+    .body-noir ,.body-noir2 ,.body-noir3 {
+      top: -1300px;
+    }
+    .image-container {
+      width: 250px;
+    }
+  }
