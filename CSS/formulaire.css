@@ -112,8 +112,35 @@ input {
         height: 130vh;
     }
 }
-@media only screen and (max-width:700px) {
+@media only screen and (max-width:500px) {
     .back-form {
         height: 110vh;
+    }
+}
+@media only screen and (max-width:400px) {
+    .civilite {
+        display: block;
+    }
+    .nom-form input {
+        width: 200px;
+    }
+    .prenom-form input {
+        width: 200px;
+    }
+    .adresse-form input  {
+        width: 200px!important;
+    }
+    .telephone-form input {
+        width: 200px!important;
+    }
+    #message-form {
+        width: 200px;
+        height: 130px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    label {
+        font-size: 12px;
     }
 }
