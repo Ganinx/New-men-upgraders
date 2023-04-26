@@ -27,7 +27,7 @@
         <div class="cv-texte">
 	        <div id="premier-cv" class="image-container">
                 <a href="#premier-cv">
-		        <img src="images/cv-valentin.png" alt="Image avec taille augmentée et fond noir" class="zoomable">
+		        <img src="images/cv-valentin.png" alt="Image avec taille augmentée et fond noir" class="zoomable cv-left">
                 </a>
 	        </div>
             <div class="texte-paragraphe" id="text-opaque">
@@ -49,7 +49,7 @@
             </div>
 	        <div id="deuxieme-cv" class="image-container">
                 <a href="#deuxieme-cv">
-		        <img src="images/cv-jose.png" alt="Image avec taille augmentée et fond noir" class="zoomable">
+		        <img src="images/cv-jose.png" alt="Image avec taille augmentée et fond noir" class="zoomable cv-right">
                 </a>
 	        </div>
         </div>
@@ -60,7 +60,7 @@
         <div class="cv-texte">
 	        <div id="troisieme-cv" class="image-container">
                 <a href="#troisieme-cv">
-		        <img src="images/cv-thomas.png" alt="Image avec taille augmentée et fond noir" class="zoomable">
+		        <img src="images/cv-thomas.png" alt="Image avec taille augmentée et fond noir" class="zoomable cv-left">
                 </a>
 	        </div>
             <div class="texte-paragraphe" id="text-opaque3">

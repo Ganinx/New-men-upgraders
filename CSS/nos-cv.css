@@ -220,7 +220,7 @@ h3 {
   /* Caption text */
   .text-slide {
     font-size: 15px;
-    padding: 8px 12px;
+    padding: 8px 0px;
     position: absolute;
     bottom: 8px;
     width: 100%;
@@ -264,4 +264,15 @@ h3 {
     from {opacity: .4}
     to {opacity: 1}
   }
-  
+  @media only screen and (max-width:1110px) {
+    .triangle , .triangle2 , .triangle3 {
+      border-right: 0px;
+      border-top: 0px;
+    }
+    .cv-left{
+      margin-left: 30px;
+    }
+    .cv-right{
+      margin-right: 30px;
+    }
+  }
