@@ -42,7 +42,7 @@
     <div class="triangle"></div>
     <div class="triangle2" id="triangle2"></div>
     <div class="triangle3" id="triangle3"></div>
-        <div class="cv-texte">
+        <div class="cv-texte cv-reverse">
         <div class="texte-paragraphe mid" id="text-opaque2">
                 <h3>José Vale Costa</h3>
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, corrupti! Totam delectus repellat sunt quos fuga! Quidem, sapiente tempora ut reiciendis nemo error labore perspiciatis ex odio nesciunt optio officia asperiores quos libero enim unde necessitatibus suscipit placeat quam beatae? Assumenda maxime illum optio, nostrum repellat et? Aliquid, consectetur? Tempore!</h4>

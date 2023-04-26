@@ -268,11 +268,59 @@ h3 {
     .triangle , .triangle2 , .triangle3 {
       border-right: 0px;
       border-top: 0px;
+      transition: all .5s ease;
     }
     .cv-left{
       margin-left: 30px;
     }
     .cv-right{
       margin-left: -30px;
+    }
+    .carre-cv-val , .carre-cv-joe ,.carre-cv-tom {
+      transition: all .5s;
+      display: none;
+    }
+  }
+  @media only screen and (max-width:700px) {
+    .cv-texte {
+      flex-direction: column;
+      align-items: center;
+    }
+    #premier-cv ,#troisieme-cv {
+      margin-right: 0px;
+    }
+    #deuxieme-cv {
+      margin-left: 0px;
+    }
+    .cv-right{
+      margin-left: 0px;
+    }
+    .cv-left{
+      margin-left: 0px;
+    }
+    .cv-reverse {
+      transition: all .5s ease;
+      flex-direction: column-reverse !important;
+    }
+    .body-noir ,.body-noir2 ,.body-noir3 {
+      top: -1150px;
+    }
+    .image-container img.zoom {
+      top: 150px;
+      left: 0px;
+      transform: rotate3d(1, 1, 1, 360deg) scale(1.4);
+    }
+    #deuxieme-cv .zoom2  {
+      top: 150px;
+      left: 0px;
+      transform: rotate3d(1, 1, 1, 360deg) scale(1.4);
+    }
+    .guillemet {
+      transition: all .5s ease;
+      display: none;
+    }
+    .slideshow-container {
+      margin-right: 20px;
+      margin-left: 20px;
     }
   }
