@@ -32,7 +32,15 @@
 	        </div>
             <div class="texte-paragraphe" id="text-opaque">
                 <h3>Valentin Delomenie</h3>
-                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, corrupti! Totam delectus repellat sunt quos fuga! Quidem, sapiente tempora ut reiciendis nemo error labore perspiciatis ex odio nesciunt optio officia asperiores quos libero enim unde necessitatibus suscipit placeat quam beatae? Assumenda maxime illum optio, nostrum repellat et? Aliquid, consectetur? Tempore!</h4>
+                <h4>Salut ! Je m'appelle Valentin et je viens de Limoges, je vais essayer de me décrire moi ainsi que mon parcours dans ce
+                    petit paragraphe !<br>
+                    J'ai énormément cherché ce que je voulais faire pendant ces dernières années et malgré les efforts rien n'a été probant... hormis
+                    la formation découverte des métiers du numérique. Grâce à cette formation, j'ai découvert un milieu qui me passionne,
+                    avec une évolution constante et dans lequel on ne s'ennuie jamais !<br>
+                    Je souhaite devenir développeur Web pour pouvoir exercer dans ce domaine qui me galvanise.
+                    Vous pourrez compter sur moi avec ma motivation et ma capacité à m'adapter à mon environnement, en effet
+                    je pense qu'il est important de bien s'informer dans ce milieu et de pouvoir rebondir rapidement !<br>
+                    Je suis enthousiaste à l'idée de pouvoir entrer dans la formation en juin donc je me donnerai au maximum !</h4>
             </div>
         </div>
     </section>

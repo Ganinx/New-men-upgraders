@@ -205,6 +205,10 @@ h3 {
     border-radius: 0 3px 3px 0;
     user-select: none;
   }
+  .container-cv h4 {
+    color: #707070;
+    font-weight: normal;
+  }
   
   /* Position the "next button" to the right */
   .next {
@@ -259,6 +263,7 @@ h3 {
     animation-name: fade;
     animation-duration: 1.5s;
   }
+
   
   @keyframes fade {
     from {opacity: .4}
