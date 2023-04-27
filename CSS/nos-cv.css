@@ -328,6 +328,9 @@ h3 {
       margin-right: 20px;
       margin-left: 20px;
     }
+    .texte-paragraphe {
+      width: 90%;
+    }
   }
   @media only screen and (max-width:500px) {
     .image-container img.zoom {
@@ -345,5 +348,8 @@ h3 {
     }
     .image-container {
       width: 250px;
+    }
+    .container-cv h4 {
+      font-size: 14px;
     }
   }
