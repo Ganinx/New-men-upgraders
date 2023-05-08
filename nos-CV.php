@@ -17,7 +17,6 @@
     <link rel="stylesheet" href="CSS/footer.css">
     <link rel="stylesheet" href="CSS/nos-cv.css">
     <link rel="icon" type="image/png" href="images/Logo-nmu4.png"/>
-</head>
     <title>Nos cv</title>
 </head>
 <body id="no-scroll">
