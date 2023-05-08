@@ -102,7 +102,7 @@
     width: 140px;
     height: 140px;
     border-radius: 360px;
-    background-color: #ffffff;
+    object-fit: cover;
 }
 .légale {
     display: flex;
