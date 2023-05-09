@@ -113,22 +113,17 @@ include "Header.php";
   
   <!-- Full-width images with number and caption text -->
   <div class="mySlides3 fade">
-    <img class="arondie-slide" src="images/oneway.png" style="width:100%">
+    <img class="arondie-slide" src="images/slide-tom1.jpg" style="width:100%">
     <div class="text"></div>
   </div>
 
   <div class="mySlides3 fade">
-    <img class="arondie-slide" src="images/cirque.png" style="width:100%">
+    <img class="arondie-slide" src="images/slide-tom2.jpg" style="width:100%">
     <div class="text"></div>
   </div>
 
   <div class="mySlides3 fade">
-    <img class="arondie-slide" src="images/logos.png" style="width:100%">
-    <div class="text"></div>
-  </div>
-
-  <div class="mySlides3 fade">
-    <img class="arondie-slide" src="images/nation.png" style="width:100%">
+    <img class="arondie-slide" src="images/slide-tom3.jpg" style="width:100%">
     <div class="text"></div>
   </div>
 
@@ -143,7 +138,6 @@ include "Header.php";
   <span class="dot3" onclick="currentSlide3(1)"></span>
   <span class="dot3" onclick="currentSlide3(2)"></span>
   <span class="dot3" onclick="currentSlide3(3)"></span>
-  <span class="dot3" onclick="currentSlide3(4)"></span>
 </div>
 <?php
 
