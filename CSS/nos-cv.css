@@ -189,6 +189,8 @@ h3 {
   .mySlides h4 {
     box-shadow: -1px 2px 19px -1px rgba(0,0,0,0.12);
     padding: 40px 60px;
+    color: #707070;
+    font-weight: normal;
   }
   /* Next & previous buttons */
   .prev, .next {
