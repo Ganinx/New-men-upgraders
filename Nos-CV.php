@@ -89,7 +89,7 @@
     <h4>Ce sont eux qui m'ont donné les idées pour l'iphone, je converse souvent avec ces mecs
   pour avoir leurs avis sur mes idées . Sans leur aide jamais je ne serai aussi influent dans 
   ce milieu !</h4>
-    <div class="text-slide">- Bill Gates</div>
+    <div class="text-slide">- Steve Jobs</div>
   </div>
 
   <div class="mySlides fade">
