@@ -81,17 +81,20 @@
   <!-- Full-width images with number and caption text -->
   <img src="images/left-quote.png" class="guillemet" alt="">
   <div class="mySlides fade">
-    <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, incidunt. Minus, repellat. Alias soluta amet possimus pariatur modi voluptate quis optio. Commodi aliquam beatae laboriosam minima tenetur quibusdam, ad dignissimos debitis recusandae officiis, impedit accusamus soluta, odio rem fuga voluptates.</h4>
+    <h4>J'adores ces gars, ils ont fait un travaille formidable sur notre dernière fusée ! D'ailleurs ils ont refusés mon offre, je donnerai tous ce que j'ai pour les avoir dans mon équipe.</h4>
     <div class="text-slide">- Elon Musk</div>
   </div>
 
   <div class="mySlides fade">
-    <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, incidunt. Minus, repellat. Alias soluta amet possimus pariatur modi voluptate quis optio. Commodi aliquam beatae laboriosam minima tenetur quibusdam, ad dignissimos debitis recusandae officiis, impedit accusamus soluta, odio rem fuga voluptates.</h4>
+    <h4>Ce sont eux qui m'ont donné les idées pour l'iphone, je converse souvent avec ces mecs
+  pour avoir leurs avis sur mes idées . Sans leur aide jamais je ne serai aussi influent dans 
+  ce milieu !</h4>
     <div class="text-slide">- Bill Gates</div>
   </div>
 
   <div class="mySlides fade">
-    <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, incidunt. Minus, repellat. Alias soluta amet possimus pariatur modi voluptate quis optio. Commodi aliquam beatae laboriosam minima tenetur quibusdam, ad dignissimos debitis recusandae officiis, impedit accusamus soluta, odio rem fuga voluptates.</h4>
+    <h4>Depuis qu'ils sont partis de Facebook, la société n'est plus la même... Avec leurs idées innovantes
+      aujourd'hui encore Meta serait sur le devant de la scène ! </h4>
     <div class="text-slide">- Mark Zuckerberg</div>
   </div>
 
