@@ -189,6 +189,8 @@ h3 {
   .mySlides h4 {
     box-shadow: -1px 2px 19px -1px rgba(0,0,0,0.12);
     padding: 40px 60px;
+    color: #707070;
+    font-weight: normal;
   }
   /* Next & previous buttons */
   .prev, .next {
@@ -344,7 +346,7 @@ h3 {
       transform: rotate3d(1, 1, 1, 360deg) scale(1.2);
     }
     .body-noir ,.body-noir2 ,.body-noir3 {
-      top: -1300px;
+      top: -1075px;
     }
     .image-container {
       width: 250px;
