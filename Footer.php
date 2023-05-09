@@ -7,7 +7,7 @@
                     <p class="prenom">José</p>
                 </div>
                 <div class="rond">
-                  <img class="rond" src="images/avatar-jose.png" alt="">
+                  <img class="rond" src="images/Jose_avatar.png" alt="">
                 </div>
                 <div class="button1">
                     <span>Réseaux</span>
@@ -35,7 +35,7 @@
                 <p class="prenom">Valentin</p>
             </div>
             <div class="rond">
-                <img class="rond" src="images/luffy.jpg" alt="">
+                <img class="rond" src="images/Valentin_avatar.png" alt="">
               </div>
             <div class="button1">
                 <span>Réseaux</span>
