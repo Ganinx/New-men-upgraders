@@ -15,8 +15,12 @@ nav{
     left: 0;
     display: flex;
     justify-content: center;
-    z-index: 999;
+    z-index: 700;
     height: 75px;
+}
+h1 {
+    margin-block-start:0 ;
+    margin-block-end: 0.15em;
 }
 .menu {
     display: flex;
@@ -121,7 +125,7 @@ p {
     transition: all .5s ease-out;
 }
 .menub {
-    border-top:solid #f8c500 6px;
+    border-top:solid #f8c500 1px;
     background-color:#ffffff ;
     width: 195px;
     height: 235px;

@@ -1,0 +1,59 @@
+.container {
+    list-style: ethiopic-halehame-ti-et!important;
+    justify-content: end!important;
+    align-items: normal!important;
+}
+.btn::after {
+    background-color: #3ca142!important;
+}
+.btn {
+    border: solid 6PX #5a4906!important;
+
+}
+a {
+    color: #4001ff!important;
+    font-size: xx-large!important;
+}
+.accueil::before, .cv::before, .portef::before {
+    background-color: #3ca142!important;
+    left: -42px!important;
+}
+span {
+    font-size: xx-small!important;
+}
+.icone {
+    filter: drop-shadow(16px 16px 20px red) invert(75%)!important;
+}
+nav {
+    background: linear-gradient(to right, #cbdb62 0%, #ab1616 100%)!important;
+}
+footer {
+    background: linear-gradient(to left, #cbdb62 0%, #ab1616 100%)!important;
+}
+.cv, .accueil {
+    border-right: solid #b11b84 4px!important;
+    line-height: 48px!important;
+}
+.rond {
+    border-radius: 0px 50px 0px 0px!important;
+}
+.button1 span {
+    background-color: #ff0000!important;
+    border: solid 21px #cf00c1!important;
+}
+.button1 {
+    background-color: #00abf5!important;
+}
+.button1 .container1 {
+    transform: translateY(-86px)!important;
+}
+p {
+    color: black!important;
+    line-height: 50px;
+    letter-spacing: 5px!important;
+}
+.container-mention {
+    max-width: 1110px;
+    margin: auto;
+    margin-top: 150px;
+}

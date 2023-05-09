@@ -1,0 +1,357 @@
+.image-container {
+    width: 300px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease-in-out;
+    transform: rotate3d(1, 1, 1, 0deg);
+    box-shadow: 0px 16px 19px -1px rgba(0,0,0,0.12);
+}
+
+.image-container img.zoom {
+    position: relative;
+    width: 300px;
+    top: 180px;
+    left: 338px;
+    transform: rotate3d(1, 1, 1, 360deg) scale(2);
+    z-index: 999;
+    transition: transform 0.7s ease-in-out;
+}
+.body-noir {
+    background-color: black;
+    z-index: 990;
+    position: relative;
+    width: 100vw;
+    height: 150vh;
+    top: -675px;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+.body-noir2 {
+    background-color: black;
+    z-index: 990;
+    position: relative;
+    width: 100vw;
+    height: 150vh;
+    top: -675px;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+.body-noir3 {
+    background-color: black;
+    z-index: 990;
+    position: relative;
+    width: 100vw;
+    height: 150vh;
+    top: -675px;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+.bouge-pas {
+    overflow: hidden;
+}
+.container-cv {
+    max-width: 1110px;
+    margin: auto;
+    position: relative;
+}
+#premier-cv, #deuxieme-cv, #troisieme-cv {
+    padding-top: 100px ;
+}
+#premier-cv, #troisieme-cv {
+    margin-right: 150px;
+}
+ #deuxieme-cv {
+    margin-left: 150px;
+}
+.cv-texte {
+    display: flex;
+    justify-content: center;
+}
+.texte-paragraphe {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+ #deuxieme-cv .zoom2 {
+    position: relative;
+    width: 300px;
+    top: 180px;
+    left: -366px;
+    transform: rotate3d(1, 1, 1, 360deg) scale(2);
+    z-index: 999;
+    transition: transform 0.7s ease-in-out;
+}
+h3 { 
+    font-size: 26px;
+}
+.carre-cv-val {
+    width: 280px;
+    height: 374px;
+    position: absolute;
+    top: 69px;
+    left: 11px;
+    background: linear-gradient(to right, #000 0%, #707070 100%);
+    z-index: -2;
+}
+.carre-cv-joe {
+    width: 280px;
+    height: 374px;
+    position: absolute;
+    top: 69px;
+    right: 11px;
+    background: linear-gradient(to right, #000 0%, #707070 100%);
+    z-index: -2;
+}
+.carre-cv-tom {
+    width: 280px;
+    height: 374px;
+    position: absolute;
+    top: 69px;
+    left: 11px;
+    background: linear-gradient(to right, #000 0%, #707070 100%);
+    z-index: -2;
+}
+.carre-cv-opaque {
+    opacity: 0;
+}
+.triangle {
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-top: 131px solid #f8c500;
+    border-right: 150px solid transparent;
+    top: -245px;
+    rotate: 169deg;
+    opacity: 0.9;
+    z-index: -2;
+    left: 930px;
+}
+.triangle2 {
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-top: 153px solid #f8c500;
+    border-right: 179px solid transparent;
+    top: 346px;
+    rotate: 61deg;
+    opacity: 0.9;
+    z-index: -2;
+    left: -29px;
+}
+.triangle3 {
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-top: 150px solid #f8c500;
+    border-right: 150px solid transparent;
+    top: 631px;
+    rotate: 245deg;
+    opacity: 0.9;
+    z-index: -2;
+    right: 54px;
+}
+.text-cv-disparait {
+    opacity: 0;
+}
+.triangle-opaque {
+    opacity: 0;
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    margin-top: 200px;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  .guillemet {
+    position: absolute;
+    width: 9%;
+    top: -33px;
+    left: -59px;
+  }
+  .mySlides h4 {
+    box-shadow: -1px 2px 19px -1px rgba(0,0,0,0.12);
+    padding: 40px 60px;
+    color: #707070;
+    font-weight: normal;
+  }
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .container-cv h4 {
+    color: #707070;
+    font-weight: normal;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: #f8c500
+  }
+  
+  /* Caption text */
+  .text-slide {
+    font-size: 15px;
+    padding: 8px 0px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 9px;
+    width: 8px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #f8c500;
+    border: solid 1px #f8c500;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  @media only screen and (max-width:1110px) {
+    .triangle , .triangle2 , .triangle3 {
+      border-right: 0px;
+      border-top: 0px;
+      transition: all .5s ease;
+    }
+    .cv-left{
+      margin-left: 30px;
+    }
+    .cv-right{
+      margin-left: -30px;
+    }
+    .carre-cv-val , .carre-cv-joe ,.carre-cv-tom {
+      transition: all .5s;
+      display: none;
+    }
+  }
+  @media only screen and (max-width:700px) {
+    .cv-texte {
+      flex-direction: column;
+      align-items: center;
+    }
+    #premier-cv ,#troisieme-cv {
+      margin-right: 0px;
+    }
+    #deuxieme-cv {
+      margin-left: 0px;
+    }
+    .cv-right{
+      margin-left: 0px;
+    }
+    .cv-left{
+      margin-left: 0px;
+    }
+    .cv-reverse {
+      transition: all .5s ease;
+      flex-direction: column-reverse !important;
+    }
+    .body-noir ,.body-noir2 ,.body-noir3 {
+      top: -1150px;
+    }
+    .image-container img.zoom {
+      top: 150px;
+      left: 0px;
+      transform: rotate3d(1, 1, 1, 360deg) scale(1.4);
+    }
+    #deuxieme-cv .zoom2  {
+      top: 150px;
+      left: 0px;
+      transform: rotate3d(1, 1, 1, 360deg) scale(1.4);
+    }
+    .guillemet {
+      transition: all .5s ease;
+      display: none;
+    }
+    .slideshow-container {
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+    .texte-paragraphe {
+      width: 90%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    .image-container img.zoom {
+      top: 50px;
+      left: 0px;
+      transform: rotate3d(1, 1, 1, 360deg) scale(1.2);
+    }
+    #deuxieme-cv .zoom2  {
+      top: 50px;
+      left: 0px;
+      transform: rotate3d(1, 1, 1, 360deg) scale(1.2);
+    }
+    .body-noir ,.body-noir2 ,.body-noir3 {
+      top: -1075px;
+    }
+    .image-container {
+      width: 250px;
+    }
+    .container-cv h4 {
+      font-size: 14px;
+    }
+  }

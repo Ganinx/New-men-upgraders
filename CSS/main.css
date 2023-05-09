@@ -5,7 +5,6 @@ html {
 body{
     margin: 70px 0px 0px 0px;
  }
-
 .c {
     display: flex;
     margin: auto;
@@ -202,8 +201,7 @@ position: relative;
     .bloctext {
         padding: 0  15px 0  15px;
     }
-}
-@media only screen and (max-width:1150px) {
+
     .s2 {
         flex-direction: column;
     }
@@ -227,10 +225,8 @@ position: relative;
     }
 }
 
+
 @media only screen and (max-width:700px) {
-    body {
-        width: fit-content;
-  }
     .c {
         display:block
     }
