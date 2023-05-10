@@ -57,3 +57,8 @@ p {
     margin: auto;
     margin-top: 150px;
 }
+.mentionvideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

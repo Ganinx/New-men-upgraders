@@ -11,7 +11,7 @@
     <title>Mention légale</title>
 </head>
 <body>
-    <?php include "Header.php";?>
+    <?php include "Header.php"?>
     <div class="container-mention">
         <p>MENTIONS LÉGALES
 
@@ -41,6 +41,9 @@
         Génération des mentions légales par Legalstart.
         </p>
     </div>
-    <?php include "Footer.php";?>
+   <div class=mentionvideo>
+    <video src="images/Rick-Astley.mp4" autoplay  type="video/mp4"></video>
+   </div>
+   <?php include "Footer.php"?>
 </body>
 </html>
