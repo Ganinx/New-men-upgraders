@@ -51,7 +51,15 @@
         <div class="cv-texte cv-reverse">
         <div class="texte-paragraphe mid" id="text-opaque2">
                 <h3>José Vale Costa</h3>
-                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, corrupti! Totam delectus repellat sunt quos fuga! Quidem, sapiente tempora ut reiciendis nemo error labore perspiciatis ex odio nesciunt optio officia asperiores quos libero enim unde necessitatibus suscipit placeat quam beatae? Assumenda maxime illum optio, nostrum repellat et? Aliquid, consectetur? Tempore!</h4>
+                <h4>
+                  Bonjour, je m'appelle José Miguel, je suis un passionné d'informatique. Après avoir cherché ma voie pendant plusieurs années, j'ai découvert ma passion pour le développement web grâce à la formation découverte des métiers du numérique.
+                  <br>
+                  Je me suis fixé pour objectif de devenir développeur web. Pour atteindre cet objectif, je me suis tourné vers la formation proposée par Human Booster, qui me permettra de consolider mes compétences et de me perfectionner dans le domaine du développement web.
+                  <br>
+                  Mon parcours m'a permis de développer des compétences de base en HTML5, CSS3, JS et en développement de sites web vitrines. 
+                  <br>
+                  Je suis convaincu que la formation de Human Booster me permettra de continuer à progresser dans ce domaine passionnant et en constante évolution. Je suis enthousiaste à l'idée de pouvoir bénéficier d'un accompagnement personnalisé et d'une formation de qualité pour atteindre mes objectifs professionnels.
+                </h4>
             </div>
 	        <div id="deuxieme-cv" class="image-container">
                 <a href="#deuxieme-cv">
