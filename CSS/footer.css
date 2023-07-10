@@ -101,7 +101,8 @@
 .rond {
     width: 140px;
     height: 140px;
-    border-radius: 360px;
+    background-color: #495468;
+    border-radius: 6px;
     object-fit: cover;
 }
 .légale {
