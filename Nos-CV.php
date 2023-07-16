@@ -47,7 +47,6 @@
     <div class="carre-cv-joe" id="carre-cv2"></div>
     <div class="triangle"></div>
     <div class="triangle2" id="triangle2"></div>
-    <div class="triangle3" id="triangle3"></div>
         <div class="cv-texte cv-reverse">
         <div class="texte-paragraphe mid" id="text-opaque2">
                 <h3>José Vale Costa</h3>
@@ -63,27 +62,12 @@
             </div>
 	        <div id="deuxieme-cv" class="image-container">
                 <a href="#deuxieme-cv">
-		        <img src="images/cv-jose.png" alt="Image avec taille augmentée et fond noir" class="zoomable cv-right">
+		        <img src="images/cv-jose.png" alt="Image avec taille augmentée et fond noir" class="zoomable2 cv-right">
                 </a>
 	        </div>
         </div>
     </section>
     <div class=fond-noir2></div>
-    <section class="container-cv">
-    <div class="carre-cv-tom" id="carre-cv3"></div>
-        <div class="cv-texte">
-	        <div id="troisieme-cv" class="image-container">
-                <a href="#troisieme-cv">
-		        <img src="images/cv-thomas.png" alt="Image avec taille augmentée et fond noir" class="zoomable cv-left">
-                </a>
-	        </div>
-            <div class="texte-paragraphe" id="text-opaque3">
-                <h3>Thomas Saupique</h3>
-                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, corrupti! Totam delectus repellat sunt quos fuga! Quidem, sapiente tempora ut reiciendis nemo error labore perspiciatis ex odio nesciunt optio officia asperiores quos libero enim unde necessitatibus suscipit placeat quam beatae? Assumenda maxime illum optio, nostrum repellat et? Aliquid, consectetur? Tempore!</h4>
-            </div>
-        </div>
-    </section>
-    <div class=fond-noir3></div>
     <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
