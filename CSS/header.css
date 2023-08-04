@@ -18,7 +18,6 @@
 }
 
 header {
-    border-bottom: solid 1px var(--color-oxford);
     background-color: var(--color-bg);
     max-width: 1440px;
     height: 100px;
@@ -37,7 +36,7 @@ nav {
 }
 
 .logo-nav {
-    width: 8%;
+    width: 96%;
     height: auto;
 }
 
