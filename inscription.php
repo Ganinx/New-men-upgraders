@@ -29,15 +29,15 @@ $pdo = dbconnect();
             if (count($errors) == 0) {
                 $qury = $pdo->prepare("INSERT INTO `nmu`.`users` (`first_name`, `last_name`, `email`, `password`) VALUES (:name, :lastname, :mail, :password)");
                 $pswSansHash= "";
-                $_POST['password'] = $pswSansHash;
-                $pswHash = password_hash("$pswSansHash",PASSWORD_DEFAULT);
+                $pswSansHash = $_POST['password'] ;
+                $pswHash = password_hash($pswSansHash,PASSWORD_DEFAULT);
                 $qury ->execute([
                         "name"=>$_POST['name'],
                         "lastname"=>$_POST['lastname'],
                         "mail"=>$_POST['mail'],
                         "password"=>$pswHash
                 ]);
-                header('Location: index.php');
+                header('Location: inscription.php');
                 exit();
             }
         }

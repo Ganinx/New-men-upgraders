@@ -10,8 +10,14 @@
             <li><a href="">Nos Portfolios</a></li>
             <li><a href="">Nos Hobbies</a></li>
         </ul>
-        <a href="connection.php" class="btn connect">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <a href="<?php
+            if(!array_key_exists("mail",$_SESSION)){
+                echo ("connection.php");
+            }else{
+                echo ("destroy.php");
+            }
+                ?>" class="btn-nav connect">
+            <svg width="50" height="35" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="12" cy="12" r="12" fill="#E98B0E" />
                 <g clip-path="url(#clip0_14_16)">
                     <path
@@ -24,11 +30,15 @@
                     </clipPath>
                 </defs>
             </svg>
-            <h3>
-                Se connecter
-            </h3>
+            <?php
+            if(array_key_exists("mail",$_SESSION)){
+                echo (" <h3>Se Déconnecter</h3>");
+            }else{
+                echo (" <h3>Se connecter</h3>");
+            }
+            ?>
         </a>
-        <a href="" class="btn contact">
+        <a href="" class="btn-nav contact">
             <h3>
                 Nous contacter
             </h3>

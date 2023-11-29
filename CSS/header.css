@@ -22,13 +22,13 @@ header nav .contact {
   margin-left: 3%;
 }
 header nav .contact h3 {
-  padding-right: 0;
+  padding-right: 0 !important;
 }
 header nav .logo-nav {
   width: 96%;
   height: auto;
 }
-header nav .btn {
+header nav .btn-nav {
   display: flex;
   min-width: 149px;
   height: 54px;
@@ -39,14 +39,14 @@ header nav .btn {
   text-decoration: none;
   white-space: nowrap;
 }
-header nav .btn h3,
-header nav .btn svg {
+header nav .btn-nav h3,
+header nav .btn-nav svg {
   font-size: var(--h3-font-size);
   color: var(--color);
   padding-right: 15px;
   font-weight: 400;
 }
-header nav .btn svg {
+header nav .btn-nav svg {
   padding: 0 10px;
 }
 header nav ul {
@@ -54,6 +54,7 @@ header nav ul {
   list-style: none;
   margin-left: 15%;
   width: 37.8%;
+  margin-bottom: 0;
 }
 header nav ul li {
   padding-left: 12.3%;

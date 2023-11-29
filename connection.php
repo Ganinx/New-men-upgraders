@@ -2,37 +2,28 @@
 session_start();
 include ("blocks/function.php");
 $pdo = dbconnect();
-
-$qury = $pdo-> query("SELECT * FROM users");
-$results = $qury ->fetchAll();
 $error =null;
 
-foreach ($results as $result) {
-    var_dump($result);
-    if($_SERVER["REQUEST_METHOD"]=="POST"){
-        $hash = $result["password"];
-        if($_POST["mail"] == $result["email"] && password_verify($_POST ["password"], $hash)) {
-            $_SESSION = [
-                    "mail" => $result["email"],
-                    "first_name" => $result["first_name"],
-                ];
-            die();
-            header("Location: index.php");
-        }else{
-            $error = "Le mail ou le mot de passe ne corsponde pas";
-        }
-    }
+if($_SERVER["REQUEST_METHOD"] == "POST"){
+    $query = $pdo->prepare("SELECT * FROM users WHERE email = :email");
+    $query->execute(["email"=>$_POST['mail']]);
+    $result = $query->fetch();
 
-    if($_SERVER["REQUEST_METHOD"]=="POST") {
-        if(array_key_exists("mail",$_SESSION)) {
-            if ($_SESSION["email"]) {
-                header('Location: index.php');
-                exit();
-            }
+    if($result){
+        if(password_verify($_POST["password"], $result["password"])){
+            $_SESSION = [
+                "mail" => $result["email"],
+                "first_name" => $result["first_name"],
+            ];
+            header('Location: index.php');
+            exit();
+        } else {
+          $error = "Le mail ou le mot de passe ne corsponde pas !";
         }
+    }else{
+        $error = "Le mail ou le mot de passe ne corsponde pas !";
     }
 }
-
 
 ?>
 <!doctype html>

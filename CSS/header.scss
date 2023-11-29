@@ -19,14 +19,14 @@ header {
       background-color: var(--color-carot);
       margin-left: 3%;
       h3 {
-        padding-right: 0;
+        padding-right: 0 !important ;
       }
     }
     .logo-nav {
       width: 96%;
       height: auto;
     }
-    .btn {
+    .btn-nav {
       display: flex;
       min-width: 149px;
       height: 54px;
@@ -52,6 +52,7 @@ header {
       list-style: none;
       margin-left: 15%;
       width: 37.8%;
+      margin-bottom: 0;
       li {
         padding-left: 12.3%;
         a {
