@@ -1,0 +1,18 @@
+/*Global*/
+:root {
+  --color: white;
+  --color-bg: white;
+  --color-oxford: #080429;
+  --color-carot: #E98B0E;
+  --color-gris: #AEAEAE;
+  --h3-font-size: 16px;
+}
+
+* {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-family: "Barlow", sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */

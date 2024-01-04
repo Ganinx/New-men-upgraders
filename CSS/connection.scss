@@ -1,0 +1,55 @@
+section.login-container{
+  display: flex;
+}
+
+
+section.login-container > div{
+  width: 450px;
+  padding: 20px;
+  text-align: center;
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 150px auto;
+}
+
+section.login-container form{
+  display: flex;
+  flex-direction: column;
+}
+
+
+form input[type="password"],
+form input[type="text"],
+form button[type="submit"],
+form input[type="email"]
+{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 16px;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: 0;
+}
+
+form input[type="text"]:focus,
+form input[type="text"]:hover,
+form input[type="email"]:hover,
+form input[type="password"]:focus,
+form input[type="password"]:hover {
+  background-color: #ccc;
+}
+
+form button[type="submit"] {
+  font-weight: bold;
+  color: #eee;
+  text-transform: uppercase;
+
+  background-color: #e67e22;
+}
+
+form button[type="submit"]:focus,
+form button[type="submit"]:hover {
+  background-color: #d35400;
+}
