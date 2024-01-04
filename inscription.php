@@ -28,7 +28,6 @@ $pdo = dbconnect();
         if($_SERVER["REQUEST_METHOD"]=="POST") {
             if (count($errors) == 0) {
                 $qury = $pdo->prepare("INSERT INTO `nmu`.`users` (`first_name`, `last_name`, `email`, `password`) VALUES (:name, :lastname, :mail, :password)");
-                $pswSansHash= "";
                 $pswSansHash = $_POST['password'] ;
                 $pswHash = password_hash($pswSansHash,PASSWORD_DEFAULT);
                 $qury ->execute([
