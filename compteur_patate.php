@@ -3,7 +3,7 @@ session_start();
 if (array_key_exists("dellete", $_GET))
     if ($_GET["dellete"] === "all"){
         session_destroy();
-        header("Location: compteur_batate.php");
+        header("Location: compteur_patate.php");
     }
 ?>
 <!DOCTYPE html>
@@ -111,8 +111,8 @@ if (array_key_exists("score4", $_GET)) {
         <?php echo $compteur1; ?>
         <div>
             <h3>Thomas</h3>
-            <a style="color: black" href="compteur_batate.php?score=plus">+</a>
-            <a style="color: black" href="compteur_batate.php?score=moin">-</a>
+            <a style="color: black" href="compteur_patate.php?score=plus">+</a>
+            <a style="color: black" href="compteur_patate.php?score=moin">-</a>
         </div>
     </div>
 
@@ -120,8 +120,8 @@ if (array_key_exists("score4", $_GET)) {
         <?php echo $compteur2; ?>
         <div>
             <h3>José</h3>
-            <a style="color: black" href="compteur_batate.php?score2=plus2">+</a>
-            <a style="color: black" href="compteur_batate.php?score2=moin2">-</a>
+            <a style="color: black" href="compteur_patate.php?score2=plus2">+</a>
+            <a style="color: black" href="compteur_patate.php?score2=moin2">-</a>
         </div>
     </div>
 
@@ -129,8 +129,8 @@ if (array_key_exists("score4", $_GET)) {
         <?php echo $compteur3; ?>
         <div>
             <h3>Valentin</h3>
-            <a style="color: black" href="compteur_batate.php?score3=plus3">+</a>
-            <a style="color: black" href="compteur_batate.php?score3=moin3">-</a>
+            <a style="color: black" href="compteur_patate.php?score3=plus3">+</a>
+            <a style="color: black" href="compteur_patate.php?score3=moin3">-</a>
         </div>
     </div>
 
@@ -138,14 +138,14 @@ if (array_key_exists("score4", $_GET)) {
         <?php echo $compteur4; ?>
         <div>
             <h3>Christina</h3>
-            <a style="color: black" href="compteur_batate.php?score4=plus4">+</a>
-            <a style="color: black" href="compteur_batate.php?score4=moin4">-</a>
+            <a style="color: black" href="compteur_patate.php?score4=plus4">+</a>
+            <a style="color: black" href="compteur_patate.php?score4=moin4">-</a>
         </div>
     </div>
 </section>
 
 <div class="delete">
-    <a href="compteur_batate.php?dellete=all"><button>Tout Suprimer</button></a>
+    <a href="compteur_patate.php?dellete=all"><button>Tout Suprimer</button></a>
 </div>
 
 

@@ -12,7 +12,7 @@
                     <li class="accueil"><a href="https://www.new-men-upgraders.fr/">Accueil </a></li>
                     <li class="cv"><a href="Nos-CV">Nos CV</a></li>
                     <li class="portef" ><a href="Portefolio">Portfolio</a></li>
-                    <li class="compteur"><a href="compteur_batate">Compteur batate</a></li>
+                    <li class="compteur"><a href="compteur_patate.php">Compteur patate</a></li>
                 </div>
                 <div class="button">
                     <a class="btn" href="Formulaire">Nous contacter </a>
@@ -39,7 +39,7 @@
                 <a href="Portefolio">PORTFOLIO</a>
             </div>
             <div class="compteur_menu">
-                <a href="compteur_batate">COMPTEUR BATATE</a>
+                <a href="compteur_patate.php">COMPTEUR patate</a>
             </div>
             <div class="button2">
                 <a class="btn2" href="Formulaire">Nous contacter </a>
