@@ -1,6 +1,11 @@
 <?php
-        session_start();
-        ?>
+session_start();
+if (array_key_exists("dellete", $_GET))
+    if ($_GET["dellete"] === "all"){
+        session_destroy();
+        header("Location: compteur_batate.php");
+    }
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -138,6 +143,11 @@ if (array_key_exists("score4", $_GET)) {
         </div>
     </div>
 </section>
+
+<div class="delete">
+    <a href="compteur_batate.php?dellete=all"><button>Tout Suprimer</button></a>
+</div>
+
 
     <script src="js/compteur.js"></script>
 

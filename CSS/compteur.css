@@ -30,8 +30,24 @@
     justify-content: center;
     gap: 30px;
     margin-top: 100px;
+    padding: 0 20px;
 }
 
+.delete{
+  text-align: center;
+}
+.delete button{
+    text-decoration: none;
+    background:#f8c500;
+    padding: 6px 12px;
+    border: 1px solid black;
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+.delete button:hover{
+    cursor: pointer;
+}
 @media only screen and (max-width:500px) {
     .compteur_section{
         flex-direction: column;
