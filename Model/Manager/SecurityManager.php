@@ -2,7 +2,7 @@
 
 
 
-class UserManager extends DbManager
+class SecurityManager extends DbManager
 {
 
     public function findAll(){
@@ -52,6 +52,15 @@ class UserManager extends DbManager
     public function deleteOne($id){
         $query = $this->bdd->prepare("DELETE from users Where id= :id");
         $query ->execute(["id"=>$id]);
+    }
+
+    public function add($obj){
+        $query = $this->bdd->prepare("INSERT INTO users (firstname,lastname,email,password) VALUES (:firstname,:lastname,:email,:password)");
+        $query->execute(["firstname" => $obj->getFirstname(),
+            "lastname"=>$obj->getLastname(),
+            "email"=>$obj->getEmail(),
+            "password"=>$obj->getPassword(),
+        ]);
     }
 
 

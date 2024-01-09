@@ -24,6 +24,7 @@ include "View/Parts/header.php";
         <div class="form-group">
             <label for="">Email</label>
             <input type="text" name="email" class="form-control">
+
         </div>
         <div class="form-group">
             <label for="">Mot de passe</label>
@@ -32,6 +33,12 @@ include "View/Parts/header.php";
 
         <a class="" href="index.php?controller=security&action=register">Créer un compte</a>
         <button type="submit">Connecter</button>
+
+        <?php
+            if ($error){
+                echo ('<p class="text-danger">identifiant incorrect</p>');
+            }
+        ?>
 
     </form>
 </section>

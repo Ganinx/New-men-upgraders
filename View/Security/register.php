@@ -14,7 +14,7 @@ require 'View/function.php';
 </head>
 <body>
 <?php
-//TODO Rajout du headaer
+include 'View/Parts/header.php'
 ?>
 
 <h1>Creer un compte</h1>
@@ -22,17 +22,27 @@ require 'View/function.php';
 <form method="post">
 
     <div class="form-group">
-        <label for="">email</label>
+        <label for="">Nom</label>
+        <input type="text" name="lastname" class="form-control <?php displayBsClassForm($errors,"lastname") ?>" value="<?php keepFormValue("lastname") ?>">
+        <?php displayBsErrorForm($errors,'lastname') ?>
+    </div>
+    <div class="form-group">
+        <label for="">Prénom</label>
+        <input type="text" name="firstname" class="form-control <?php displayBsClassForm($errors,"firstname") ?>" value="<?php keepFormValue("firstname") ?>">
+        <?php displayBsErrorForm($errors,'firstname') ?>
+    </div>
+    <div class="form-group">
+        <label for="">Email</label>
         <input type="text" name="email" class="form-control <?php displayBsClassForm($errors,"email") ?>" value="<?php keepFormValue("email") ?>">
         <?php displayBsErrorForm($errors,'email') ?>
     </div>
     <div class="form-group">
-        <label for="">password</label>
+        <label for="">Password</label>
         <input type="password" name="password" class="form-control <?php displayBsClassForm($errors,"password") ?>" value="<?php keepFormValue("password") ?>">
         <?php displayBsErrorForm($errors,'password') ?>
     </div>
     <div class="form-group">
-        <label for="">confirm password</label>
+        <label for="">Confirm password</label>
         <input type="password" name="confirm-password" class="form-control <?php displayBsClassForm($errors,"confirm-password") ?>" value="<?php keepFormValue("confirm-password") ?>">
         <?php displayBsErrorForm($errors,'confirm-password') ?>
     </div>
