@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Register{% endblock %}
+
+{% block body %}
+    <h1>Register</h1>
+
+    {{ dump( form_errors(registrationForm) ) }}
+
+    {{ form_start(registrationForm) }}
+        {{ form_widget(registrationForm.firstName, {'attr': {'placeholder': 'Nom', 'class': 'my-3'}}) }}
+        {{ form_errors(registrationForm.firstName ) }}
+        {{ form_row(registrationForm.lastName) }}
+        {{ form_row(registrationForm.email) }}
+        {{ form_row(registrationForm.plainPassword) }}
+        {{ form_row(registrationForm.agreeTerms) }}
+    {{ form_end(registrationForm) }}
+
+{% endblock %}
